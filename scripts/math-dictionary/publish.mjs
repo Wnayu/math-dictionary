@@ -13,6 +13,7 @@ const CONFIG_FILES = [
   'scripts/math-dictionary/verify-build.mjs', 'scripts/math-dictionary/README.md',
   'scripts/math-dictionary/export.test.mjs', 'scripts/math-dictionary/export-manifest.json',
   'scripts/math-dictionary/verify-build.test.mjs',
+  'scripts/math-dictionary/publish.test.mjs',
   'quartz.config.yaml', 'quartz.ts', 'quartz.lock.json', 'package.json', 'package-lock.json',
   'quartz/components/DictionaryNavigation.tsx', 'quartz/components/DictionaryWelcome.tsx',
   'quartz/components/scripts/dictionary-welcome.inline.ts',
@@ -41,10 +42,38 @@ function run(command, args, { quiet = false, allowFailure = false } = {}) {
     child.on('close', code => {
       if (childProcess === child) childProcess = null
       if (interrupted) reject(new Error('发布已停止。'))
-      else if (code !== 0 && !allowFailure) reject(new Error(`步骤执行失败：${command === process.execPath ? 'Node.js' : command} ${args.slice(0, 2).join(' ')}；${stderr.trim().slice(-1800) || '请查看发布日志。'}`))
+      else if (code !== 0 && !allowFailure) reject(Object.assign(new Error(`步骤执行失败：${command === process.execPath ? 'Node.js' : command} ${args.slice(0, 2).join(' ')}；${stderr.trim().slice(-1800) || '请查看发布日志。'}`), { stderr, exitCode: code }))
       else resolve({ code, stdout: stdout.trim(), stderr: stderr.trim() })
     })
   })
+}
+
+export async function stageAllowedFiles(files, { gitRun = run, pause = ms => new Promise(resolve => setTimeout(resolve, ms)), notify = message => emit('progress', message) } = {}) {
+  const paths = [...new Set(files)].sort()
+  if (!paths.length) return
+  if (paths.some(file => typeof file !== 'string' || file.includes('\0') || (!CONFIG_FILES.includes(file) && !(file.startsWith('content/') && publicPath(file.slice('content/'.length)))))) throw new Error('暂存清单包含未授权路径，已停止。')
+  const gitDirectory = (await gitRun('git', ['rev-parse', '--absolute-git-dir'], { quiet: true })).stdout
+  const filename = path.join(gitDirectory, `math-dictionary-stage-${process.pid}-${crypto.randomUUID()}.paths`)
+  const handle = await fs.open(filename, 'wx', 0o600)
+  try {
+    await handle.writeFile(paths.join('\0') + '\0', 'utf8')
+    await handle.close()
+    const args = ['--literal-pathspecs', 'add', `--pathspec-from-file=${filename}`, '--pathspec-file-nul']
+    const delays = [300, 600, 1200]
+    for (let attempt = 0; ; attempt++) {
+      try { await gitRun('git', args, { quiet: true }); break }
+      catch (error) {
+        const lockConflict = /index\.lock[^\r\n]*(?:File exists|already exists)/i.test(error.stderr ?? '')
+        if (!lockConflict) throw error
+        if (attempt >= delays.length) throw new Error('Git 索引仍被其他操作占用，已停止发布。请等待其他 Git 操作结束后重试；不会删除它的 index.lock。', { cause: error })
+        notify(`Git 正在处理其他操作，稍后重试暂存（${attempt + 1}/${delays.length}）。`)
+        await pause(delays[attempt])
+      }
+    }
+  } finally {
+    await handle.close().catch(() => {})
+    await fs.unlink(filename).catch(error => { if (error.code !== 'ENOENT') process.stderr.write('临时暂存清单未能清理，请检查 .git/math-dictionary-stage-*.paths。\n') })
+  }
 }
 
 async function acquireLock() {
@@ -146,8 +175,9 @@ export async function main(args = process.argv.slice(2)) {
     for (const file of CONFIG_FILES) {
       try { if ((await fs.stat(path.join(SITE_ROOT, file))).isFile()) stage.add(file) } catch (error) { if (error.code !== 'ENOENT') throw error }
     }
-    // Literal pathspecs prevent filenames from being interpreted as Git options or globs.
-    for (const file of stage) await run('git', ['--literal-pathspecs', 'add', '--', file], { quiet: true })
+    // One Git index transaction; NUL-delimited literal pathspecs preserve Unicode
+    // filenames and avoid per-file index-lock races or shell argument limits.
+    await stageAllowedFiles(stage)
     const stagedNow = (await run('git', ['diff', '--cached', '--name-only', '-z'], { quiet: true })).stdout.split('\0').filter(Boolean)
     if (stagedNow.some(file => !stage.has(file))) throw new Error('发布期间出现了其他暂存文件，已停止提交。请先检查网站仓库的暂存区。')
     const changed = await run('git', ['diff', '--cached', '--quiet'], { quiet: true, allowFailure: true })
