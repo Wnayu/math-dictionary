@@ -3,7 +3,9 @@ import assert from 'node:assert/strict'
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import os from 'node:os'
-import { stageAllowedFiles } from './publish.mjs'
+import { EventEmitter } from 'node:events'
+import { PassThrough } from 'node:stream'
+import { stageAllowedFiles, readExistingGitHubToken, waitForDeployment } from './publish.mjs'
 import { inside } from './export.mjs'
 
 async function directory(t) {
@@ -87,4 +89,84 @@ test('does not retry unrelated Git errors and still cleans the temporary list', 
 
 test('rejects a private path without invoking Git or creating a pathspec file', async () => {
   await assert.rejects(stageAllowedFiles(['.obsidian/plugins/private/data.json'], { gitRun: async () => assert.fail('must not invoke Git') }), /未授权路径/)
+})
+
+test('reads an existing credential through fixed stdin without logging or process arguments', async () => {
+  const fakeToken = 'fixture-token-only=with-equals'
+  let request = '', optionsSeen, argumentsSeen
+  const spawnProcess = (command, args, options) => {
+    assert.equal(command, 'git')
+    argumentsSeen = args; optionsSeen = options
+    const child = new EventEmitter()
+    child.stdin = new PassThrough(); child.stdout = new PassThrough()
+    child.kill = () => true
+    child.stdin.on('data', data => { request += data.toString() })
+    child.stdin.on('finish', () => {
+      child.stdout.write(`protocol=https\nhost=github.com\nusername=Wnayu\npassword=${fakeToken}\n`)
+      child.emit('close', 0)
+    })
+    return child
+  }
+  assert.equal(await readExistingGitHubToken({ spawnProcess }), fakeToken)
+  assert.deepEqual(argumentsSeen, ['credential', 'fill'])
+  assert.equal(request, 'protocol=https\nhost=github.com\nusername=Wnayu\n\n')
+  assert.equal(optionsSeen.env.GCM_INTERACTIVE, 'Never')
+  assert.equal(optionsSeen.env.GIT_TERMINAL_PROMPT, '0')
+  assert.equal(optionsSeen.shell, false)
+  assert.equal(optionsSeen.windowsHide, true)
+  assert.deepEqual(optionsSeen.stdio, ['pipe', 'pipe', 'ignore'])
+  assert.ok(!JSON.stringify({ request, argumentsSeen, optionsSeen }).includes(fakeToken))
+})
+
+test('credential process failure returns anonymous fallback without surfacing its output', async () => {
+  const spawnProcess = () => {
+    const child = new EventEmitter()
+    child.stdin = new PassThrough(); child.stdout = new PassThrough(); child.kill = () => true
+    child.stdin.on('finish', () => { child.stdout.write('password=fixture-must-not-return\n'); child.emit('close', 1) })
+    return child
+  }
+  assert.equal(await readExistingGitHubToken({ spawnProcess }), null)
+})
+
+test('deployment status uses the credential only for GitHub API and never website or events', async () => {
+  const sha = 'a'.repeat(40), token = 'fixture-secret-only'
+  const calls = [], events = []
+  const fetchRequest = async (url, options) => {
+    calls.push({ url, options })
+    if (url.startsWith('https://api.github.com/')) return { ok: true, status: 200, json: async () => ({ workflow_runs: [{ head_sha: sha, path: '.github/workflows/deploy.yml', status: 'completed', conclusion: 'success', run_number: 1 }] }) }
+    return { ok: true, status: 200 }
+  }
+  const result = await waitForDeployment(sha, 1000, { readCredential: async () => token, fetchRequest, notify: (...event) => events.push(event), log: () => assert.fail('no log expected') })
+  assert.equal(result, true)
+  assert.equal(calls[0].options.headers.Authorization, 'Bearer ' + token)
+  assert.equal(calls[1].options.headers, undefined)
+  assert.ok(calls.every(call => !call.url.includes(token)))
+  assert.ok(!JSON.stringify(events).includes(token))
+  assert.ok(events.some(event => event[0] === 'deployed'))
+})
+
+test('missing credentials and anonymous rate limit report pending rather than deployed', async () => {
+  const events = [], logs = []
+  const result = await waitForDeployment('b'.repeat(40), 1000, {
+    readCredential: async () => null,
+    fetchRequest: async (_, options) => { assert.equal(options.headers.Authorization, undefined); return { ok: false, status: 403 } },
+    notify: (...event) => events.push(event), log: message => logs.push(message),
+  })
+  assert.equal(result, false)
+  assert.ok(events.some(event => event[1].includes('暂时无法确认')))
+  assert.ok(!events.some(event => event[0] === 'deployed'))
+  assert.ok(logs.some(message => message.includes('403')))
+})
+
+test('rejected existing credential falls back to anonymous without exposing the credential', async () => {
+  const token = 'fixture-rejected-only', events = [], requests = []
+  const result = await waitForDeployment('c'.repeat(40), 1000, {
+    readCredential: async () => token,
+    fetchRequest: async (_, options) => { requests.push(options.headers); return { ok: false, status: options.headers.Authorization ? 401 : 403 } },
+    notify: (...event) => events.push(event), log: message => assert.ok(!message.includes(token)),
+  })
+  assert.equal(result, false)
+  assert.equal(requests[0].Authorization, 'Bearer ' + token)
+  assert.equal(requests[1].Authorization, undefined)
+  assert.ok(!JSON.stringify(events).includes(token))
 })

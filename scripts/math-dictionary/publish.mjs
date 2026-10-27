@@ -100,29 +100,93 @@ async function acquireLock() {
   }
 }
 
-async function waitForDeployment(sha, timeoutMs = 180000) {
+export function readExistingGitHubToken({ spawnProcess = spawn, timeoutMs = 15000 } = {}) {
+  if (interrupted) return Promise.resolve(null)
+  // Deliberately separate from run(): credential stdout must never become a log.
+  return new Promise(resolve => {
+    let child
+    try {
+      child = spawnProcess('git', ['credential', 'fill'], { cwd: SITE_ROOT, shell: false, windowsHide: true, env: interactiveEnv, stdio: ['pipe', 'pipe', 'ignore'] })
+    } catch { resolve(null); return }
+    childProcess = child
+    let output = '', finished = false
+    const finish = token => {
+      if (finished) return
+      finished = true
+      clearTimeout(timer)
+      output = ''
+      if (childProcess === child) childProcess = null
+      resolve(token)
+    }
+    const timer = setTimeout(() => { child.kill('SIGTERM'); finish(null) }, timeoutMs)
+    child.stdout.setEncoding('utf8')
+    child.stdout.on('data', chunk => {
+      if (finished) return
+      output += chunk
+      if (output.length > 65536) { child.kill('SIGTERM'); finish(null) }
+    })
+    child.once('error', () => finish(null))
+    child.once('close', code => {
+      if (finished) return
+      let token = null
+      if (code === 0) {
+        const fields = Object.create(null)
+        for (const line of output.split(/\r?\n/)) {
+          const equal = line.indexOf('=')
+          if (equal >= 0) fields[line.slice(0, equal)] = line.slice(equal + 1)
+        }
+        if (fields.username?.toLowerCase() === 'wnayu' && fields.password) token = fields.password
+      }
+      finish(token)
+    })
+    child.stdin.once('error', () => { child.kill('SIGTERM'); finish(null) })
+    try { child.stdin.end('protocol=https\nhost=github.com\nusername=Wnayu\n\n') }
+    catch { child.kill('SIGTERM'); finish(null) }
+  })
+}
+
+export async function waitForDeployment(sha, timeoutMs = 180000, { fetchRequest = fetch, readCredential = readExistingGitHubToken, notify = emit, log = message => process.stderr.write(message), pause = ms => new Promise(resolve => setTimeout(resolve, ms)) } = {}) {
   const deadline = Date.now() + timeoutMs
-  emit('progress', '内容已推送，正在等待 GitHub Pages 完成构建与上线。')
+  notify('progress', '内容已推送，正在等待 GitHub Pages 完成构建与上线。')
+  // Use only the already configured Git credential, in memory, for github.com.
+  // It is never passed in process arguments, URLs, settings, logs or website requests.
+  let token = await readCredential().catch(() => null)
+  if (!token) notify('progress', '暂未读取到本机 GitHub 登录状态，尝试公开查询；若遇限额，将保留“已推送、待确认上线”状态。')
+  const apiUrl = `https://api.github.com/repos/${REPOSITORY}/actions/runs?head_sha=${sha}&per_page=20`
+  const requestStatus = async credential => {
+    const headers = { Accept: 'application/vnd.github+json', 'User-Agent': 'MathDictionaryPublisher' }
+    if (credential) headers.Authorization = `Bearer ${credential}`
+    return fetchRequest(apiUrl, { headers, signal: AbortSignal.timeout(15000) })
+  }
   while (Date.now() < deadline && !interrupted) {
     try {
-      const response = await fetch(`https://api.github.com/repos/${REPOSITORY}/actions/runs?head_sha=${sha}&per_page=20`, { headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'MathDictionaryPublisher' }, signal: AbortSignal.timeout(15000) })
-      if (!response.ok) { process.stderr.write(`部署状态暂不可读取（HTTP ${response.status}）。\n`); return false }
+      let response = await requestStatus(token)
+      if (token && (response.status === 401 || response.status === 403)) {
+        token = null
+        notify('progress', '当前登录状态未能读取部署信息，尝试公开查询。')
+        response = await requestStatus(null)
+      }
+      if (!response.ok) {
+        log(`部署状态暂不可读取（HTTP ${response.status}）。\n`)
+        notify('progress', '内容已推送；暂时无法确认 GitHub Pages 是否上线，可稍后打开网站或查看 GitHub Actions。', { url: WEBSITE })
+        return false
+      }
       const data = await response.json()
       const runs = (data.workflow_runs ?? []).filter(run => run.head_sha === sha && run.path === '.github/workflows/deploy.yml').sort((a, b) => b.run_number - a.run_number)
       const latest = runs[0]
       if (latest?.status === 'completed') {
         if (latest.conclusion !== 'success') throw Object.assign(new Error(`内容已推送，但 GitHub Pages 构建未成功（${latest.conclusion}）。请打开 ${latest.html_url} 查看。`), { deploymentFailed: true })
-        const page = await fetch(WEBSITE + '?published=' + sha.slice(0, 12), { signal: AbortSignal.timeout(15000), cache: 'no-store' })
-        if (page.ok) { emit('deployed', '数学词典已发布，固定网址现在可以访问。', { url: WEBSITE, commit: sha }); return true }
+        const page = await fetchRequest(WEBSITE + '?published=' + sha.slice(0, 12), { signal: AbortSignal.timeout(15000), cache: 'no-store' })
+        if (page.ok) { notify('deployed', '数学词典已发布，固定网址现在可以访问。', { url: WEBSITE, commit: sha }); return true }
       }
     } catch (error) {
       if (error.deploymentFailed) throw error
-      process.stderr.write(`部署状态读取稍后重试：${error.message}\n`)
+      log('部署状态读取暂时失败，稍后重试。\n')
     }
-    await new Promise(resolve => setTimeout(resolve, 10000))
+    await pause(10000)
   }
   if (interrupted) throw new Error('发布状态等待已停止；已推送的 GitHub 构建仍可能继续。')
-  emit('progress', '内容已推送；本次等待内尚未确认上线，可稍后打开网站或查看 GitHub Actions。', { url: WEBSITE })
+  notify('progress', '内容已推送；本次等待内尚未确认上线，可稍后打开网站或查看 GitHub Actions。', { url: WEBSITE })
   return false
 }
 
