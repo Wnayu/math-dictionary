@@ -1,0 +1,177 @@
+# yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
+configuration:
+  pageTitle: 数学词典
+  pageTitleSuffix: " · 数学词典"
+  enableSPA: true
+  enablePopovers: true
+  analytics: null
+  locale: zh-CN
+  baseUrl: wnayu.github.io/math-dictionary
+  ignorePatterns:
+    - .obsidian/**
+    - .maintenance/**
+    - AGENTS.md
+    - private/**
+    - templates/**
+  theme:
+    fontOrigin: local
+    cdnCaching: false
+    typography:
+      header: Microsoft YaHei
+      body: Microsoft YaHei
+      code: Consolas
+    colors:
+      lightMode:
+        light: "#faf9f5"
+        lightgray: "#deded5"
+        gray: "#7c8583"
+        darkgray: "#303b3d"
+        dark: "#172f36"
+        secondary: "#24536a"
+        tertiary: "#287763"
+        highlight: "rgba(36, 83, 106, 0.055)"
+        textHighlight: "#e6d99566"
+      darkMode:
+        light: "#172125"
+        lightgray: "#354348"
+        gray: "#8c9b9c"
+        darkgray: "#d4dedd"
+        dark: "#edf1e9"
+        secondary: "#91c3d2"
+        tertiary: "#9fcbb7"
+        highlight: "rgba(145, 195, 210, 0.09)"
+        textHighlight: "#81713c88"
+plugins:
+  # In Quartz 5 this plugin parses frontmatter as well as supplying an optional panel.
+  - source: "@quartz-community/note-properties"
+    enabled: true
+    order: 5
+    options:
+      hidePropertiesView: true
+      includedProperties: []
+  - source: "@quartz-community/created-modified-date"
+    enabled: true
+    order: 10
+    options:
+      priority: [frontmatter, filesystem]
+  - source: "@quartz-community/obsidian-flavored-markdown"
+    enabled: true
+    order: 30
+    options:
+      callouts: true
+      comments: true
+      wikilinks: true
+      mermaid: false
+      enableYouTubeEmbed: false
+      enableInHtmlEmbed: false
+  - source: "@quartz-community/github-flavored-markdown"
+    enabled: true
+    order: 40
+  - source: "@quartz-community/table-of-contents"
+    enabled: true
+    order: 50
+    options:
+      maxDepth: 3
+      minEntries: 1
+    layout:
+      position: right
+      priority: 10
+  - source: "@quartz-community/crawl-links"
+    enabled: true
+    order: 60
+    options:
+      markdownLinkResolution: relative
+      externalLinkIcon: false
+  - source: "@quartz-community/description"
+    enabled: true
+    order: 70
+  - source: "@quartz-community/latex"
+    enabled: true
+    order: 80
+    options:
+      renderEngine: katex
+      katexOptions:
+        strict: ignore
+        throwOnError: true
+        trust: false
+  - source: "@quartz-community/remove-draft"
+    enabled: true
+  - source: "@quartz-community/explicit-publish"
+    enabled: true
+  - source: "@quartz-community/alias-redirects"
+    enabled: true
+  - source: "@quartz-community/content-index"
+    enabled: true
+    options:
+      enableSiteMap: true
+      enableRSS: false
+  - source: "@quartz-community/content-page"
+    enabled: true
+  - source: "@quartz-community/folder-page"
+    enabled: true
+  - source: "@quartz-community/tag-page"
+    enabled: true
+  - source: "@quartz-community/page-title"
+    enabled: true
+    layout:
+      position: left
+      priority: 10
+  - source: "@quartz-community/search"
+    enabled: true
+    options:
+      enablePreview: true
+    layout:
+      position: left
+      priority: 20
+  - source: "@quartz-community/darkmode"
+    enabled: true
+    layout:
+      position: left
+      priority: 30
+      group: reading-tools
+  - source: "@quartz-community/reader-mode"
+    enabled: true
+    layout:
+      position: left
+      priority: 35
+      group: reading-tools
+  - source: "@quartz-community/explorer"
+    enabled: true
+    options:
+      title: 全部词条
+      folderDefaultState: collapsed
+      folderClickBehavior: collapse
+      useSavedState: true
+    layout:
+      position: left
+      priority: 50
+  - source: "@quartz-community/article-title"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 10
+  - source: "@quartz-community/backlinks"
+    enabled: true
+    layout:
+      position: right
+      priority: 30
+  - source: "@quartz-community/footer"
+    enabled: true
+    options:
+      links:
+        词条源码: https://github.com/Wnayu/math-dictionary
+    layout:
+      position: footer
+      priority: 50
+layout:
+  groups:
+    reading-tools:
+      priority: 30
+      direction: row
+      gap: 0.6rem
+  byPageType:
+    "404":
+      positions:
+        beforeBody: []
+        left: []
+        right: []

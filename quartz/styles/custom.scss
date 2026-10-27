@@ -1,0 +1,184 @@
+@use "./variables.scss" as *;
+
+// Typography follows the reader's installed fonts. KaTeX ships its own local fonts.
+html:root {
+  --headerFont: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --bodyFont: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --codeFont: "Cascadia Code", Consolas, monospace;
+}
+
+html { scroll-padding-top: 2rem; }
+body { font-size: 16px; line-height: 1.85; }
+.page { max-width: 1480px; }
+.page > #quartz-body {
+  grid-template-columns: 260px minmax(0, 1fr) 238px;
+  column-gap: 24px;
+  padding: 0 26px;
+
+  .sidebar { padding: 3.2rem 0 1.5rem; gap: 1.15rem; }
+  .sidebar.left { border-right: 1px solid var(--lightgray); padding-right: 22px; }
+  .sidebar.right { padding-left: 5px; font-size: 0.87rem; }
+  .page-header { margin-top: 3.2rem; }
+  .center { min-width: 0; max-width: 100%; }
+  footer { min-width: 0; font-size: 0.8rem; }
+}
+
+.page-title { font-size: 1.6rem; letter-spacing: 0.06em; line-height: 1.3; }
+.article-title { font-size: clamp(1.55rem, 2.4vw, 2rem); line-height: 1.5; margin: 0 0 1.5rem; }
+article { overflow-wrap: anywhere; }
+article p { line-height: 1.95; margin: 1.05rem 0; }
+article > p:first-child { color: var(--dark); }
+article h2 { font-size: 1.35rem; line-height: 1.6; margin-top: 2.1rem; padding-bottom: 0.45rem; border-bottom: 1px solid var(--lightgray); }
+article h3 { font-size: 1.08rem; line-height: 1.7; margin-top: 1.65rem; }
+article ul, article ol { padding-left: 1.55rem; }
+article li { margin: 0.45rem 0; }
+article a.internal { background: none; padding: 0; font-weight: 500; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--secondary) 25%, transparent); text-underline-offset: 3px; }
+article a.internal:hover { text-decoration-color: var(--tertiary); }
+article strong { font-weight: 650; }
+article hr { margin: 2rem 0; }
+.katex { font-size: 1.09em; text-wrap: nowrap; }
+.katex-display { max-width: 100%; overflow-x: auto; overflow-y: hidden; padding: 0.4rem 0; margin: 1.3rem 0; }
+.katex-display > .katex { min-width: min-content; }
+article table { display: block; max-width: 100%; overflow-x: auto; font-size: 0.94rem; }
+article th, article td { padding: 0.65rem 0.8rem; min-width: 7rem; }
+.footnotes { margin-top: 2.3rem; border-top: 1px solid var(--lightgray); font-size: 0.84rem; }
+.footnotes p { line-height: 1.8; }
+.footnotes h2 { border: 0; }
+
+.dictionary-navigation { display: flex; flex-direction: column; gap: 0.25rem; }
+.dictionary-nav-label { color: var(--gray); font-size: 0.72rem; letter-spacing: 0.12em; margin: 0 0 0.25rem; }
+.dictionary-navigation a { background: transparent; font-size: 0.91rem; padding: 0.35rem 0.65rem; border-radius: 5px; font-weight: 500; }
+.dictionary-navigation a:hover, .dictionary-navigation a[aria-current="page"] { background: var(--highlight); color: var(--tertiary); }
+.search { width: 100%; max-width: none; min-width: 0; }
+.search > .search-button { height: 2.7rem; border-radius: 7px; background: color-mix(in srgb, var(--light) 85%, white); }
+.search > .search-button p { color: var(--secondary); }
+.search > .search-container > .search-space { max-width: 1120px; width: min(88vw, 1120px); margin-top: 8vh; }
+.search .search-layout { line-height: 1.6; }
+.explorer { margin-top: 0.6rem; }
+.explorer .folder-container div > a, .explorer .folder-container div > button { font-size: 0.84rem; }
+.explorer .file-link { font-size: 0.8rem; line-height: 1.55; }
+.toc ul, .backlinks ul { line-height: 1.7; }
+.toc h3, .backlinks h3 { font-size: 0.9rem; }
+
+.dictionary-welcome { margin: -0.4rem 0 1.9rem; padding: 0 0 1.3rem; border-bottom: 1px solid var(--lightgray); }
+.dictionary-kicker { color: var(--tertiary); letter-spacing: 0.22em; font-size: 0.77rem; margin: 0 0 1rem; }
+.dictionary-search-launch { width: 100%; padding: 1rem 1.1rem; border: 1px solid var(--gray); border-radius: 9px; background: var(--light); color: var(--secondary); display: flex; align-items: center; gap: 0.8rem; cursor: pointer; font: inherit; box-shadow: 0 3px 14px rgba(25, 46, 53, 0.035); text-align: left; }
+.dictionary-search-launch:hover { border-color: var(--tertiary); }
+.dictionary-search-launch svg { width: 23px; height: 23px; flex-shrink: 0; }
+.dictionary-search-launch span { flex-grow: 1; }
+.dictionary-search-launch kbd { color: var(--gray); font-size: 0.72rem; padding: 0.1rem 0.35rem; border: 1px solid var(--lightgray); border-radius: 4px; }
+.dictionary-search-hint { color: var(--gray); font-size: 0.78rem; margin: 0.6rem 0 0; }
+
+.callout[data-callout="proof"] {
+  --color: var(--secondary);
+  --border: color-mix(in srgb, var(--secondary) 24%, transparent);
+  --bg: color-mix(in srgb, var(--secondary) 4%, transparent);
+  --callout-icon: var(--callout-icon-example);
+  border-left-width: 3px;
+  border-radius: 5px;
+  margin: 1.25rem 0;
+  padding: 0 1rem;
+  > .callout-title { padding: 0.6rem 0; align-items: center; }
+  > .callout-title > .callout-title-inner > p { margin: 0; line-height: 1.6; }
+  > .callout-content { font-size: 0.95rem; }
+  > .callout-content p { line-height: 1.95; margin: 0.75rem 0; }
+  > .callout-content > :first-child { margin-top: 0; }
+  > .callout-content > :last-child { margin-bottom: 0.9rem; }
+  // Unlayered article spacing must not leave invisible rows in folded proofs.
+  &.is-collapsed > .callout-content { display: none; }
+}
+.callout-title { cursor: pointer; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--tertiary); outline-offset: 4px; }
+
+@media (min-width: 801px) and (max-width: 1199px) {
+  .page > #quartz-body {
+    grid-template-columns: 230px minmax(0, 1fr);
+    grid-template-areas:
+      "grid-sidebar-left grid-header"
+      "grid-sidebar-left grid-center"
+      "grid-sidebar-left grid-sidebar-right"
+      "grid-sidebar-left grid-footer";
+    padding: 0 22px;
+    column-gap: 24px;
+  }
+  .page > #quartz-body .sidebar.right { padding: 1.5rem 0; }
+}
+@media (max-width: 800px) {
+  body { font-size: 15.5px; }
+  .page > #quartz-body {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "grid-sidebar-left" "grid-header" "grid-center" "grid-sidebar-right" "grid-footer";
+    column-gap: 0;
+    padding: 0 20px;
+  }
+  .page > #quartz-body .sidebar.left {
+    position: relative;
+    top: auto;
+    z-index: 20;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "brand tools" "search menu";
+    align-items: center;
+    height: auto;
+    min-width: 0;
+    width: 100%;
+    padding: 1.15rem 0 1rem;
+    border-right: 0;
+    border-bottom: 1px solid var(--lightgray);
+    gap: 0.8rem;
+    background: var(--light);
+  }
+  .page > #quartz-body .sidebar.right { position: static; height: auto; padding: 1.5rem 0; }
+  .page > #quartz-body > .center { grid-area: grid-center; width: 100%; }
+  .page > #quartz-body.lock-scroll > :not(.sidebar.left:has(.explorer)) { transform: none; }
+  .page > #quartz-body .page-header { margin-top: 1.4rem; }
+  .sidebar.left > .page-title { grid-area: brand; display: block; font-size: 1.35rem; min-width: 0; margin: 0; }
+  .sidebar.left > .search { grid-area: search; display: block; width: 100%; min-width: 0; }
+  .sidebar.left > .search > .search-button { height: 2.55rem; width: 100%; }
+  .sidebar.left > .flex-component { grid-area: tools; justify-content: flex-end; gap: 0.8rem !important; }
+  :root[reader-mode="on"] .sidebar.left { opacity: 1; }
+  .dictionary-navigation { display: none; }
+  // Keep navigation below the toolbar instead of sliding an off-screen full-page drawer.
+  // Hidden content is removed from layout before Explorer calls scrollIntoView().
+  .sidebar.left > .explorer { grid-area: menu; position: static; overflow: visible; order: 0; height: auto; min-width: 0; margin: 0; align-self: stretch; }
+  .sidebar.left > .explorer > .mobile-explorer { display: flex; justify-content: center; gap: 0.35rem; height: 2.55rem; margin: 0; padding: 0 0.6rem; border: 1px solid var(--lightgray); border-radius: 6px; }
+  .sidebar.left > .explorer > .mobile-explorer::after { content: "目录"; font: 0.86rem var(--bodyFont); white-space: nowrap; }
+  .sidebar.left > .explorer > .desktop-explorer { display: none; }
+  .sidebar.left > .explorer > .explorer-content {
+    display: none;
+    position: absolute;
+    top: calc(100% + 0.35rem);
+    left: 0;
+    z-index: 30;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: min(65dvh, 32rem);
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 7px;
+    background: var(--light);
+    box-shadow: 0 8px 24px rgba(25, 46, 53, 0.14);
+    transform: none;
+    transition: none;
+    visibility: visible;
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+  .sidebar.left > .explorer[aria-expanded="true"]:not(.collapsed) > .explorer-content { display: block; }
+  .sidebar.left > .explorer > .explorer-content > .explorer-ul { height: auto; max-height: none; overflow: visible; }
+  html.mobile-no-scroll { overflow-y: auto; }
+  .article-title { font-size: 1.65rem; }
+  article h2 { font-size: 1.22rem; }
+  article p { line-height: 1.95; }
+  .dictionary-search-launch { padding: 0.85rem; font-size: 0.94rem; }
+  .dictionary-search-launch kbd { display: none; }
+  .search > .search-container > .search-space { width: calc(100vw - 28px); margin-top: 4vh; }
+  .katex { font-size: 1.05em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; }
+}
