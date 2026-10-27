@@ -27,7 +27,7 @@ verified: false
 
 
 
-内积给向量提供长度与正交关系。测度论中最常见的实例是 $L^2(\mu)$ 上的积分配对；[条件期望（Conditional expectation）](Conditional-expectation.md)在平方可积情形下可解释为正交投影。[^1]
+内积给向量提供长度与正交关系。测度论中最常见的实例是 $L^2(\mu)$ 上的积分配对。[^1] [条件期望（Conditional expectation）](Conditional-expectation.md)在平方可积情形下可解释为正交投影。[^2]
 
 ## 定义
 
@@ -58,7 +58,7 @@ $$
 \langle f,g\rangle=\int_X f\overline g\,d\mu,\qquad
 \|f\|_2=\sqrt{\langle f,f\rangle}.
 $$
-[Cauchy–Schwarz 不等式（Cauchy–Schwarz inequality）](Cauchy-Schwarz-inequality.md)保证该积分存在；取几乎处处相等的[等价类（Equivalence class）](Equivalence-relation.md)保证正定性。[Lp 完备性（Completeness of Lp）](Lp-completeness.md)进一步说明 $L^2(\mu)$ 为 Hilbert 空间。
+[Cauchy–Schwarz 不等式（Cauchy–Schwarz inequality）](Cauchy-Schwarz-inequality.md)保证该积分存在；取几乎处处相等的[等价类（Equivalence class）](Equivalence-relation.md)保证正定性。[Lp 完备性（Completeness of Lp）](Lp-completeness.md)进一步说明 $L^2(\mu)$ 为 Hilbert 空间。[^1]
 
 ## 正交与正交投影
 
@@ -88,6 +88,8 @@ $$
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis，个人笔记。第2章开头的内积结构与 L2 积分配对。本卡补齐内积、Hilbert 空间和正交投影的标准定义；投影的论证在本卡展开，以说明相关词条中的最小平方误差解释。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，第 33 页；Proposition 2.14；式 (2.10)。
+
+[^2]: Chen Wang，*Notes on Lévy Processes and Stochastic Calculus*，个人笔记，第 78–79 页。
 
 [测度论导航](../测度论导航.md) · [条件期望（Conditional expectation）](Conditional-expectation.md)

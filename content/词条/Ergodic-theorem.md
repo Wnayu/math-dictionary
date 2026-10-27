@@ -11,7 +11,7 @@ verified: false
 
 
 
-Birkhoff 遍历定理把平稳系统的时间平均识别为不变信息下的条件均值。[^D]
+Birkhoff 遍历定理把平稳系统的时间平均识别为不变信息下的条件均值。[^1]
 
 ## 定义
 
@@ -59,4 +59,4 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §6.2，Theorem 6.2.1及Lemma 6.2.2。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorem 6.2.1；Lemma 6.2.2。

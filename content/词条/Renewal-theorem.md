@@ -11,7 +11,7 @@ verified: false
 
 
 
-更新定理描述长时间内更新次数及更新测度的平均密度。下列计数 $N$ 与测度 $U$ 采用[更新过程（Renewal process）](Renewal-process.md)中的约定。[^D][^N]
+更新定理描述长时间内更新次数及更新测度的平均密度。下列计数 $N$ 与测度 $U$ 采用[更新过程（Renewal process）](Renewal-process.md)中的约定。[^1][^2]
 
 ## 大数律与初等更新定理
 
@@ -29,7 +29,7 @@ $$
 > $$
 > 若 $\mu<\infty$，强大数定律使两端趋于 $\mu$。若 $\mu=\infty$，对每个 $K$ 用截断变量 $\xi_k\wedge K$ 的强大数律，得到 $\liminf_nS_n/n\ge\mathbb E(\xi_1\wedge K)$；令 $K\uparrow\infty$ 得 $S_n/n\to\infty$，再由上述不等式得到计数速率为零。
 
-期望收敛不能仅由几乎必然收敛推断。初等更新定理还要使用跨越时刻的 Wald 恒等式与等待时间截断；完整证明见 Durrett §2.6 的 Theorem 2.6.3。
+期望收敛不能仅由几乎必然收敛推断。初等更新定理还要使用跨越时刻的 Wald 恒等式与等待时间截断；完整证明见 Durrett Theorem 2.6.3。
 
 ## Blackwell 更新定理
 
@@ -61,6 +61,8 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §2.6，Theorems 2.6.1、2.6.3、2.6.4、2.6.12。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 2.6.1、2.6.3–2.6.4、2.6.12；第 102 页。
 
-[^N]: Chen Wang, Lecture Notes on Stochastic Processes，个人笔记。 第4章更新过程渐近性质与更新函数。
+[^2]: Chen Wang, *Lecture Notes on Stochastic Processes*，个人笔记，式 (4.2)、(4.4)–(4.5)。
+
+

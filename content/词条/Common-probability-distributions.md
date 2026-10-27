@@ -41,7 +41,7 @@ $$
 
 二项系数 $\binom nk=n!/[k!(n-k)!]$；$n!=1\cdot2\cdots n$，$0!=1$。边界参数 $p=0,1$ 按相应退化分布解释，避免在公式中依赖未说明的 $0^0$。Poisson 参数 $\lambda=0$ 时也定义为恒等于零的分布。
 
-公平 Bernoulli 变量指 $p=1/2$。[^2]二项变量可实现为 $n$ 个独立 Bernoulli 变量之和。这里几何变量计数“首次成功所需试验次数”；若改计成功前失败次数，应使用 $X-1$，其支集从 $0$ 开始，均值也相应改变。
+公平 Bernoulli 变量指 $p=1/2$。二项变量可实现为 $n$ 个独立 Bernoulli 变量之和。[^1][^2]这里几何变量计数“首次成功所需试验次数”；若改计成功前失败次数，应使用 $X-1$，其支集从 $0$ 开始，均值也相应改变。
 
 ## 具有密度的分布
 
@@ -61,7 +61,7 @@ $$
 $$
 f(x)=\frac{\beta^\alpha}{\Gamma(\alpha)}x^{\alpha-1}e^{-\beta x},\qquad x>0.
 $$
-均值为 $\alpha/\beta$，方差为 $\alpha/\beta^2$。
+均值为 $\alpha/\beta$，方差为 $\alpha/\beta^2$。[^1][^2]
 
 ### Beta 分布
 
@@ -106,6 +106,6 @@ Poisson 分布描述一个计数变量，[Poisson 过程（Poisson process）](P
 
 ## 参考文献
 
-[^2]: Chen Wang, Notes on Lévy Processes and Stochastic Calculus，个人笔记，附录 Review of measure and probability；原分布词条中的Bernoulli、Poisson和均匀分布说明迁入本条。
+[^1]: Rick Durrett，*Probability: Theory and Examples*，Version 5，January 11, 2019，Examples 1.2.3、1.6.10–1.6.14、2.1.17、3.3.16；Theorem 2.1.18 的证明；Exercise 2.1.12。
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§1.2、2.1、3.3、3.7中常用分布；Bing-Yi Jing, Advanced Probability Theory, lecture notes, July 2012, §§2.10、10.1。参数约定、Beta/Gamma归一化及矩计算在本条明示。
+[^2]: Bing-Yi Jing，*Advanced Probability Theory*，lecture notes，July 2012，第45、175页。

@@ -25,7 +25,7 @@ verified: false
 
 
 
-等价关系规定哪些对象应视为同一类。[Lp 空间（Lp space）](Lp-space.md)把几乎处处相等的函数视为同一个元素；[Vitali 集（Vitali set）](Vitali-set.md)则从有理数差关系的每一类选择一个点。这两种用法都需要区分等价类与代表元。[^1]
+等价关系规定哪些对象应视为同一类。[Lp 空间（Lp space）](Lp-space.md)把几乎处处相等的函数视为同一个元素；[Vitali 集（Vitali set）](Vitali-set.md)则从有理数差关系的每一类选择一个点。这两种用法都需要区分等价类与代表元。[^1][^2]
 
 ## 定义
 
@@ -57,6 +57,8 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 第1章等价关系；第4章 Vitali 集构造。另见 Chen Wang, Notes on Real Analysis，个人笔记，第2章 Lp 函数等价类的说明。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，第4–5页；Theorem 4.16 的证明。
+
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，第35页。
 
 [测度论导航](../测度论导航.md) · [Lp 空间（Lp space）](Lp-space.md)

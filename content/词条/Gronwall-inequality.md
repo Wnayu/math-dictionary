@@ -36,4 +36,4 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. 命题6.1.4；概率过程应用为本条说明。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，式 (6.5)；Proposition 6.1.4。

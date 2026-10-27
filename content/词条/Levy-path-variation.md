@@ -33,7 +33,7 @@ $$
 总变差定义见[有界变差函数（Functions of bounded variation）](Bounded-variation.md)。
 
 > [!proof]- 充分性及必要性的归属
-> 小跳总绝对幅度的期望为 $T\int_{|z|<1}|z|\nu(dz)<\infty$，由[Poisson 随机测度的 Campbell 公式（Campbell formula for Poisson random measures）](Poisson-random-measure.md)可知其几乎必然有限。大跳是有限项和，漂移变差有限，故全路径有限变差。必要性还需排除高斯部分及证明无限小跳绝对幅度的发散；其完整论证引用 Applebaum §2.4 的路径变差讨论，不以充分性替代等价命题的全部证明。
+> 小跳总绝对幅度的期望为 $T\int_{|z|<1}|z|\nu(dz)<\infty$，由[Poisson 随机测度的 Campbell 公式（Campbell formula for Poisson random measures）](Poisson-random-measure.md)可知其几乎必然有限。大跳是有限项和，漂移变差有限，故全路径有限变差。必要性还需排除高斯部分及证明无限小跳绝对幅度的发散；其完整论证见 Applebaum 的 Theorem 2.4.25，不以充分性替代等价命题的全部证明。
 
 ## 无限活动但有限变差的例
 
@@ -47,4 +47,4 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §2.4中Lévy–Itô分解后的路径性质及次协调子判据；充分性和例为本条展开。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，Theorem 2.4.25、Example 1.3.18。

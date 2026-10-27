@@ -40,4 +40,4 @@ $H$ 在 $dt\,dP$ 几乎处处意义下唯一。因此 $M_t=E[Z\mid\mathcal F_t]$
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §5.4，Theorem 5.18、Lemma 5.19 及多维延拓。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorem 5.18、Lemma 5.19；第131页。

@@ -59,4 +59,4 @@ $$
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.4.3，A finitary analogue of the Lebesgue decomposition，Finitary Lebesgue–Radon–Nikodym decomposition 定理及其两阈值证明；该段注明源自 Tao 的有限组合类比。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，式 (1.10)–(1.13)（Theorem 1.54）；Exercise 1.55。

@@ -49,6 +49,6 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §2.2.1，§4.1；可预测性及基本被积过程。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，第93、216、218页。
 
-[^2]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §3.1，§5.1；渐进可测性与连续鞅积分。
+[^2]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Definition 3.3、Proposition 3.4、Definition 5.2、Proposition 5.3；第99页。

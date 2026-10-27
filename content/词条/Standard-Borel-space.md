@@ -33,4 +33,4 @@ verified: false
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. 定理2.1.22及§4.1.3（nice spaces 的可测同构框架及定理4.1.17–4.1.18）；标准Borel命名对应此可测结构。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 53–54 页；Theorems 2.1.22、4.1.17–4.1.18。

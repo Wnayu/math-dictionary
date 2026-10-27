@@ -48,4 +48,4 @@ $$
 
 ## 参考文献
 
-[^1]: Terence Tao, 275A 概率论讲义, 2015. Notes 5，Proposition 3及常数说明；本条补充指数倾斜证明。
+[^1]: Terence Tao, *275A, Notes 5: Variants of the central limit theorem*, 2015，Proposition 3，式 (6)；第 5 页。

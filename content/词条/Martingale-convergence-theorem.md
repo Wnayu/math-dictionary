@@ -11,7 +11,7 @@ verified: false
 
 
 
-鞅收敛包含几乎必然收敛、$L^1$ 收敛和 $L^p$ 收敛等不同结论；它们需要的条件不能混同。[^D][^N]
+鞅收敛包含几乎必然收敛、$L^1$ 收敛和 $L^p$ 收敛等不同结论；它们需要的条件不能混同。[^1][^2]
 
 ## 几乎必然收敛
 
@@ -54,6 +54,8 @@ $L^1$ 有界本身不足以推出 $L^1$ 收敛。例如连续抛公平硬币，�
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§4.2、4.4、4.6。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 4.2.11–4.2.12、4.4.6、4.6.1、4.6.7–4.6.8。
 
-[^N]: Chen Wang, Lecture Notes on Stochastic Processes，个人笔记。 第2章，上穿、收敛、一致可积与Lp收敛各节。
+[^2]: Chen Wang, *Lecture Notes on Stochastic Processes*，个人笔记，Theorems 2.27、2.30、2.49、2.63–2.64；Remark 2.31。
+
+

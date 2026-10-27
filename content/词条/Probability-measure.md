@@ -66,6 +66,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §3.1 末尾的 probability measure 定义。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，第20页。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §§1.2–1.3，概率测度、推前测度与积分。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Definition 1.16；Examples 1.18、1.20；式 (1.3)–(1.4)。

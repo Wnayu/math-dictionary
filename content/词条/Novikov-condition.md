@@ -58,4 +58,4 @@ $$
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §5.5 Theorem 5.23；原证明先经 Kazamaki 条件，本条展开有限时域版本。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorem 5.23。

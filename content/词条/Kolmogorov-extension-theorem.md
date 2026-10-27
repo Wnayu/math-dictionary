@@ -11,7 +11,7 @@ verified: false
 
 
 
-Kolmogorov 扩张定理把彼此相容的有限维分布实现为一个随机过程。它首先解决概率测度的存在性，而非路径连续性。[^D][^L]
+Kolmogorov 扩张定理把彼此相容的有限维分布实现为一个随机过程。它首先解决概率测度的存在性，而非路径连续性。[^1][^2]
 
 ## 定义
 
@@ -28,7 +28,7 @@ $$
 > [!proof]- 唯一性的证明
 > 有限坐标柱集 $\pi_F^{-1}(A)$ 对有限交封闭，并生成乘积 $\sigma$-代数。两个满足要求的概率测度在这些柱集上一致，因此由[π–λ 定理（Pi-lambda theorem）](Pi-lambda-theorem.md)在整个乘积 $\sigma$-代数上一致。
 
-存在性要证明柱集赋值可扩张为可列可加测度；一般可测状态空间并不自动满足要求。标准 Borel 条件下的构造见 Durrett §2.1 与 Le Gall §1.3；不能只凭有限可加性跳过这一步。
+存在性要证明柱集赋值可扩张为可列可加测度；一般可测状态空间并不自动满足要求。标准 Borel 条件下的可数乘积构造及可测空间同构见 Durrett 的 Theorems 2.1.21、2.1.22；任意参数集版本的陈述见 Le Gall 第10–11页，连续时间 Polish 状态空间版本见 Theorem 6.3；不能只凭有限可加性跳过这一步。
 
 ## 路径正则性的另一步
 
@@ -38,6 +38,6 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §2.1，Theorems 2.1.21–2.1.22。
+[^1]: Rick Durrett，*Probability: Theory and Examples*，Version 5，2019年1月11日，Theorems 2.1.21、2.1.22。
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §1.3。
+[^2]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，第10–11页；Theorem 6.3。

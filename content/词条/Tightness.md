@@ -39,4 +39,4 @@ $X_n\Rightarrow X$ 的实值序列必紧。先选 $[-M,M]$ 使极限分布的大
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.2，Theorems 3.2.12–3.2.14。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 3.2.12–3.2.14。

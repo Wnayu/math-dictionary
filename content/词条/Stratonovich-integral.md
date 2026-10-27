@@ -51,4 +51,4 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §4.4.5，Stratonovich integral、链式法则及 Theorem 4.4.27。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，第270页；Theorems 4.4.26、4.4.27。

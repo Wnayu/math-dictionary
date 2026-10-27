@@ -58,4 +58,4 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. Lemma 3.16、Theorem 3.17、Exercise 23，§3.4，印刷 pp.96、100。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Lemma 3.16；Theorem 3.17；第3章 Exercise 23；第96页。

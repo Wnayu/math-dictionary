@@ -47,6 +47,6 @@ Lebesgue 测度下 $\mathbb Q$、单点集和标准 Cantor 集都是零集。Can
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.2，零集、余零集与完备性。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Definition 1.16；Exercise 1.22。
 
-[^2]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §3.1；§4.3，Examples 4.10–4.11。
+[^2]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，第19页；Examples 4.10–4.11。

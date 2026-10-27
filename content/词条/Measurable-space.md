@@ -49,6 +49,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §2.1。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，第11页。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.1，Measurable Spaces 与 restriction。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Definition 1.1；Example 1.12。

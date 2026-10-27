@@ -36,4 +36,4 @@ Wald 恒等式把随机项数的独立和的均值分解为平均项数乘平均
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§2.6、4.8；本条用绝对求和证明所陈述的可积版本。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 2.6.2、4.8.6。

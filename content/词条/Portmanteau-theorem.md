@@ -35,7 +35,7 @@ $C([0,1])$ 是该区间上的[连续函数空间（space of continuous functions
 3. 对每个开集 $G$，$\liminf_n\mu_n(G)\ge\mu(G)$。
 4. 对每个 $\mu$-连续 Borel 集 $A$，$\mu_n(A)\to\mu(A)$。
 
-其中 $C_b(S)$ 是有界连续实函数集合，连续集仍指 $\mu(\partial A)=0$。实直线上的概率版本见 Durrett §3.2；下面的距离函数证明同时给出度量空间扩展。对于紧区间上的连续函数，$\|f\|_\infty=\max_{x\in[0,1]}|f(x)|$ 可作为下文使用的有界常数。
+其中 $C_b(S)$ 是有界连续实函数集合，连续集仍指 $\mu(\partial A)=0$。实直线和一般度量空间的概率版本分别见 Durrett Theorems 3.2.11、3.10.1；下面用距离函数给出共同证明。对于紧区间上的连续函数，$\|f\|_\infty=\max_{x\in[0,1]}|f(x)|$ 可作为下文使用的有界常数。
 
 > [!proof]- 两个版本的共同证明
 > 以 $M_n=\mu_n(S)$、$M=\mu(S)$ 表示总质量。概率版本均等于 $1$；紧区间版本另有假设 $M_n\to M$。以下测试函数始终有界。
@@ -66,8 +66,9 @@ $C([0,1])$ 是该区间上的[连续函数空间（space of continuous functions
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, Version 4.3, 2022，习题7.29；这里重述其中前四个等价条件。
+[^1]: Richard F. Bass, *Real Analysis for Graduate Students*, Version 4.3, 2022，Exercise 7.29。
 
-[^2]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019，§3.2，Theorem 3.2.11。度量空间表述由本条所给距离函数证明推广。
+[^2]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 3.2.11、3.10.1。
+
 
 [概率论导航](../概率论导航.md) · [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

@@ -11,7 +11,7 @@ verified: false
 
 
 
-随机游动通过累加独立步长构造路径，是离散鞅、Markov 链和 Brownian 极限的基本例子。[^D][^N]
+随机游动通过累加独立步长构造路径，是离散鞅、Markov 链和 Brownian 极限的基本例子。[^1][^2]
 
 ## 定义
 
@@ -46,6 +46,8 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§4.2、4.8.1、5.4、8.1。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 217 页；Theorem 4.8.7；式 (4.8.2)；Examples 5.5.1–5.5.2。
 
-[^N]: Chen Wang, Lecture Notes on Stochastic Processes，个人笔记。 第2章随机游动鞅例子与停止；第3章常返分类。
+[^2]: Chen Wang, *Lecture Notes on Stochastic Processes*，个人笔记，Examples 2.6–2.7、2.81、3.82。
+
+

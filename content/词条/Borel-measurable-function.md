@@ -50,6 +50,6 @@ Borel 可测性由拓扑通过[Borel σ-代数（Borel sigma-algebra）](Borel-s
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §5.1，命题5.6、5.10及例5.12。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Propositions 5.6、5.10；Example 5.12。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.1，Borel/Lebesgue可测性与完备化的讨论。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Exercise 1.6；Remark 1.7；Exercise 1.22。

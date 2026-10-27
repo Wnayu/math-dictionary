@@ -25,7 +25,7 @@ verified: false
 
 
 
-凸性把两点的线性插值与函数值联系起来。[Jensen 不等式（Jensen inequality）](Jensen-inequality.md)将有限凸组合推广到积分；[Minkowski 不等式（Minkowski inequality）](Minkowski-inequality.md)中也使用幂函数的凸性。[^1]
+凸性把两点的线性插值与函数值联系起来。[Jensen 不等式（Jensen inequality）](Jensen-inequality.md)将有限凸组合推广到积分；[Minkowski 不等式（Minkowski inequality）](Minkowski-inequality.md)中也使用幂函数的凸性。[^1][^2]
 
 ## 定义
 
@@ -65,6 +65,8 @@ $x\mapsto |x|^p$ 在 $\mathbb R$ 上对 $p\ge1$ 凸，对 $p>1$ 严格凸。$p=1
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis，个人笔记。第2章的向量空间凸性与 Minkowski 不等式讨论。本卡补写凸集、凸函数、仿射函数和支撑直线的标准定义，以服务本专题的积分不等式。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，式 (2.5)、(2.7)；Exercise 2.6。
+
+[^2]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercise 8.8(1)、(4)。
 
 [测度论导航](../测度论导航.md) · [赋范空间（Normed space）](Normed-space.md)

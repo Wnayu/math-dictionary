@@ -34,6 +34,6 @@ Doob–Dynkin 引理把“只依赖于随机变量 $X$ 提供的信息”表达�
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Lévy Processes and Stochastic Calculus，个人笔记，附录 Review of measure and probability。
+[^1]: Chen Wang，*Notes on Lévy Processes and Stochastic Calculus*，个人笔记，第76页。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

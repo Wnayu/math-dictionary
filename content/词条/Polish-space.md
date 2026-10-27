@@ -38,4 +38,4 @@ Polish 空间上的单个 Borel 概率测度具有紧性，即对每个 $\vareps
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.2和§8.1中完备可分度量空间及连续路径空间；例与相容度量的区分为本条展开。
+[^1]: Jean-François Le Gall, *Brownian Motion, Martingales, and Stochastic Calculus*, Graduate Texts in Mathematics 274, Springer, 2016，第 154 页。

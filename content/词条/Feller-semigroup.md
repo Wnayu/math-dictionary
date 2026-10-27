@@ -11,7 +11,7 @@ verified: false
 
 
 
-Feller 半群把 Markov 转移与连续函数空间的分析结构连接起来，为路径正则性、强 Markov 性和生成元理论提供条件。[^L][^Y][^G]
+Feller 半群把 Markov 转移与连续函数空间的分析结构连接起来，为路径正则性、强 Markov 性和生成元理论提供条件。[^1][^2][^3]
 
 ## 定义
 
@@ -49,8 +49,8 @@ Feller 过程的正则版本及强 Markov 性见[强 Markov 性（Strong Markov 
 
 ## 参考文献
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §6.2。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Definition 6.7；第161页。
 
-[^Y]: Russell Lyons, Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall, August 10, 2025，课程讲义。 §6.2。
+[^2]: Russell Lyons，*Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall*，课程讲义，2025年8月10日，Definition 6.7。
 
-[^G]: Chen Wang, Notes on GTM 274，个人笔记。 1.5，Feller semigroups；1.19，Review。
+[^3]: Chen Wang，*Notes on GTM 274*，个人笔记，Definition 1.21、Example 1.24。

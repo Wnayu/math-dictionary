@@ -19,7 +19,7 @@ verified: false
 $$
 E[ZX\mid\mathcal G]=Z E[X\mid\mathcal G].
 $$
-对不有界 $Z$，只要 $X$ 和 $ZX$ 均可积，等式仍成立，且右侧可积。[^1]
+对不有界 $Z$，只要 $X$ 和 $ZX$ 均可积，等式仍成立，且右侧可积。[^1][^2]
 
 > [!proof]- 证明
 > 线性由对任意 $G\in\mathcal G$ 的积分恒等式及唯一性得到。保序先对 $Y-X\ge0$：若其条件期望为负的集合有正概率，则可在某个 $\{E[Y-X\mid\mathcal G]\le-1/n\}$ 上得到负积分，与非负原变量矛盾。因子提出先对 $Z=1_A$、$A\in\mathcal G$ 核对积分，再线性推广至简单函数、有界逼近推广至有界 $Z$。对一般 $Z$，截断 $Z_n=Z1_{\{|Z|\le n\}}$，先由非负变量的版本得到 $E[|ZX|\mid\mathcal G]=|Z|E[|X|\mid\mathcal G]$，再以此作为可积控制取极限。
@@ -61,4 +61,6 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §4.1.2；Chen Wang, Lecture Notes on Stochastic Processes，个人笔记，第1章。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，式 (4.1.1)–(4.1.4)；Theorems 4.1.11、4.1.13–4.1.15。
+
+[^2]: Chen Wang, *Lecture Notes on Stochastic Processes*，个人笔记，式 (1.9)–(1.11)、(1.15)、(1.19)、(1.24)–(1.25)、(1.27)；Theorem 1.16。

@@ -73,4 +73,4 @@ $\sin x$ 在每个有限区间上有界变差，但不属于 $BV(\mathbb R)$。
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §3.5，式 (3.24)、Examples 3.25、Theorems 3.27、3.29，印刷 pp.102–105。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，式 (3.24)；Examples 3.25；Theorems 3.27、3.29；第107页。

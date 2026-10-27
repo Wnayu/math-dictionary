@@ -51,6 +51,6 @@ $E_{t,x}$ 表示从时刻 $t$、状态 $x$ 出发的解的期望。该形式是�
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, 2019-01-11. §9.4，Feynman–Kac 公式及局部鞅验证法。
+[^1]: Rick Durrett，*Probability: Theory and Examples*，Version 5，2019年1月11日，式 (9.4.2)；Theorems 9.4.1、9.4.2。
 
-[^2]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §6.5 后 Exercise 6.26、§7 后 Exercise 7.28；本条一般扩散版本由Itô公式自行展开。
+[^2]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Exercises 6.26、7.28。

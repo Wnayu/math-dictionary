@@ -51,5 +51,5 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. Proposition 12.4、Theorem 12.5，§§12.1–12.2。
-[^2]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. Theorem 3.3，印刷 pp.86–87。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Proposition 12.4；Theorem 12.5。
+[^2]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Theorem 3.3。

@@ -50,4 +50,4 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.4.2，Theorem 3.4.10、Exercise 3.4.12。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorem 3.4.10；Exercise 3.4.12。

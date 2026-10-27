@@ -52,6 +52,6 @@ $$
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §4.3 Theorem 4.9，§4.5 Proposition 4.21；Brownian 情形见 §2.3。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，式 (4.3)；Theorem 4.9、Proposition 4.21、Proposition 2.16。
 
-[^2]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §4.4.3，含跳跃二次变差公式 (4.15)。
+[^2]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，式 (4.15)。

@@ -11,7 +11,7 @@ verified: false
 
 
 
-混合条件量化相隔较远的两组信息偏离独立性的程度。不同混合系数比较的对象不同；在中心极限定理中，必须同时写明系数定义和衰减条件。[^D]
+混合条件量化相隔较远的两组信息偏离独立性的程度。不同混合系数比较的对象不同；在中心极限定理中，必须同时写明系数定义和衰减条件。[^1]
 
 ## 定义
 
@@ -42,7 +42,7 @@ $$
 $$
 这里第二个信息集合仅由一个随机变量生成，不能把它与整个未来的信息集合混同。
 
-**注**：Durrett §8.3.1 把本条的 $\alpha_1(n)$ 记作 $\alpha(n)$，把本条的强混合系数记作 $\bar\alpha(n)$。引用该节的定理时，要先核对这项记号差异。[平稳序列的中心极限定理（Central limit theorem for stationary sequences）](Stationary-central-limit-theorem.md)按这里的记号区分两者。
+**注**：Durrett 第 408–409 页把本条的 $\alpha_1(n)$ 记作 $\alpha(n)$，把本条的强混合系数记作 $\bar\alpha(n)$。引用该节的定理时，要先核对这项记号差异。[平稳序列的中心极限定理（Central limit theorem for stationary sequences）](Stationary-central-limit-theorem.md)按这里的记号区分两者。
 
 ## 强混合与遍历性
 
@@ -71,7 +71,7 @@ $$
 \le8\|U\|_p\|V\|_q
 \alpha(\mathcal G,\mathcal H)^{1-1/p-1/q}.
 $$
-这里 $\|U\|_p=(E|U|^p)^{1/p}$，并假设两项范数有限；[协方差（Covariance）](Covariance.md)为 $E(UV)-EU\,EV$。这是 Durrett Lemma 8.3.6 在本条所需指数范围内的形式。[^D]
+这里 $\|U\|_p=(E|U|^p)^{1/p}$，并假设两项范数有限；[协方差（Covariance）](Covariance.md)为 $E(UV)-EU\,EV$。这是 Durrett Lemma 8.3.6 在本条所需指数范围内的形式。[^1]
 
 > [!proof]- 截断证明
 > 记 $a=\alpha(\mathcal G,\mathcal H)$。$a=0$ 时独立性给出结论，以下设 $a>0$。若 $|U|\le u$、$|V|\le v$，将 $U+u,V+v$ 写成指标函数的层积分，并对协方差使用 Fubini，得到
@@ -112,4 +112,4 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §8.3，Example 8.3.3、Lemma 8.3.6、Theorem 8.3.7 及其后关于 strong mixing 的注；强混合推出遍历性的逼近证明、交替序列的比较由本条展开。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 406、408–409 页；Example 8.3.3；Lemma 8.3.6；Theorem 8.3.7。

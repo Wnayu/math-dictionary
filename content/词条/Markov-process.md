@@ -11,7 +11,7 @@ verified: false
 
 
 
-Markov 过程把 Markov 链推广到一般状态空间与连续时间；其核心是关于整个过去信息的条件分布公式。[^L][^Y][^G]
+Markov 过程把 Markov 链推广到一般状态空间与连续时间；其核心是关于整个过去信息的条件分布公式。[^1][^2][^3]
 
 ## 定义
 
@@ -45,8 +45,8 @@ $$
 
 ## 参考文献
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §6.1。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Definition 6.2、Corollary 6.4；第153页。
 
-[^Y]: Russell Lyons, Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall, August 10, 2025，课程讲义。 §6.1。
+[^2]: Russell Lyons，*Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall*，课程讲义，2025年8月10日，Definition 6.2、Corollary 6.4。
 
-[^G]: Chen Wang, Notes on GTM 274，个人笔记。 1.5，Markov过程定义与有限维分布公式。
+[^3]: Chen Wang，*Notes on GTM 274*，个人笔记，式 (1.1)–(1.4)；Definition 1.5。

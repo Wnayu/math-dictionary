@@ -50,6 +50,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 命题11.2、§11.2。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，式 (11.2)–(11.3)（Proposition 11.2）；第93页。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.2，有限个σ-有限测度空间的乘积测度定理。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Theorem 1.27。

@@ -147,8 +147,8 @@ $$
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis, 个人笔记。本文所据章节：Review of Measure Theory 中的 Measurable Spaces 与 Measure Spaces 两节。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Definitions 1.1、1.16；Examples 1.17–1.19；Exercise 1.21；式 (1.6)–(1.8)。
 
-[^2]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §1.5，Proposition 1.15、Theorem 1.16，印刷 pp.33–35。
+[^2]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Proposition 1.15；Theorem 1.16。
 
-[^3]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §§3.1、4.1–4.5，特别是 Examples 4.3–4.4、4.10–4.11 与 Theorems 4.6、4.16–4.17。
+[^3]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Examples 4.3–4.4、4.10–4.11；Theorems 4.6、4.16–4.17。

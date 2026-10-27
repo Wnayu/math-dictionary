@@ -11,7 +11,7 @@ verified: false
 
 
 
-转移核把当前位置或条件参数映射为一个概率分布，同时保留参数上的可测性。它是一般状态空间条件分布和 Markov 转移的共同语言。[^L][^G]
+转移核把当前位置或条件参数映射为一个概率分布，同时保留参数上的可测性。它是一般状态空间条件分布和 Markov 转移的共同语言。[^1][^2]
 
 ## 定义
 
@@ -45,6 +45,6 @@ $$
 
 ## 参考文献
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §6.1。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，第151–152页。
 
-[^G]: Chen Wang, Notes on GTM 274，个人笔记。 1.5，General definitions and the problem of existence。
+[^2]: Chen Wang，*Notes on GTM 274*，个人笔记，Definition 1.1、Remark 1.2。

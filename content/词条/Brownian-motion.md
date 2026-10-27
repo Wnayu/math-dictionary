@@ -11,7 +11,7 @@ verified: false
 
 
 
-Brownian 运动是具有连续路径和独立平稳高斯增量的随机过程，也是连续时间随机积分的基本驱动过程。[^L][^D][^Y]
+Brownian 运动是具有连续路径和独立平稳高斯增量的随机过程，也是连续时间随机积分的基本驱动过程。[^1][^2][^3]
 
 ## 定义
 
@@ -35,7 +35,7 @@ $$
 
 $B_t$ 与 $B_t^2-t$ 是鞅；对 $\theta\in\mathbb R$，$\exp(\theta B_t-\theta^2t/2)$ 是鞅。逐项验证只需条件于 $\mathcal F_s$ 后计算独立高斯增量的前两矩与指数矩。
 
-路径在每个紧区间上几乎必然对任意 $\alpha<1/2$ Hölder 连续，但几乎必然处处不可微，且非退化区间上的总变差无穷。Hölder 结论由前述矩估计得到；不可微性完整证明见 Le Gall §2.3。沿二分网格的平方增量和趋于区间长度，见[二次变差（Quadratic variation）](Quadratic-variation.md)。
+路径在每个紧区间上几乎必然对任意 $\alpha<1/2$ Hölder 连续，但几乎必然处处不可微，且非退化区间上的总变差无穷。Hölder 结论由前述矩估计得到；不可微性的完整证明见 Durrett 的 Theorem 7.1.6。[^2]沿二分网格的平方增量和趋于区间长度，见[二次变差（Quadratic variation）](Quadratic-variation.md)。
 
 [强 Markov 性（Strong Markov property）](Strong-Markov-property.md)、[反射原理（Reflection principle）](Reflection-principle.md)、[Brownian 首达时刻（Brownian hitting times）](Brownian-hitting-times.md)及[Brownian 桥（Brownian bridge）](Brownian-bridge.md)分别承担这些性质的详细论证。
 
@@ -48,8 +48,8 @@ Brownian 路径加上一个确定性函数后，其概率律何时与原来的 W
 
 ## 参考文献
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §§2.1–2.4。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Proposition 2.3、Proposition 2.5、Corollary 2.11、Definition 2.12、Corollary 2.17、Definition 2.24；第28页。
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§7.1–7.5。
+[^2]: Rick Durrett，*Probability: Theory and Examples*，Version 5，2019年1月11日，Theorems 7.1.5、7.1.6、7.5.2、7.5.4、7.5.6。
 
-[^Y]: Russell Lyons, Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall, August 10, 2025，课程讲义。 第2章。
+[^3]: Russell Lyons，*Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall*，课程讲义，2025年8月10日，Proposition 2.3、Theorem 2.9、Definition 2.12。

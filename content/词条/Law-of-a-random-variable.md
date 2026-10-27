@@ -43,7 +43,7 @@ $$
 
 实值随机变量的分布函数 $F(x)=P(X\le x)$ 非降、右连续，且在 $-\infty,+\infty$ 的极限分别为 $0,1$。反过来每个这样的函数通过 [Lebesgue–Stieltjes 测度（Lebesgue–Stieltjes measure）](Lebesgue-Stieltjes-measure.md)确定唯一概率分布。记 $F(x-)=\lim_{t\uparrow x}F(t)$ 为该词条约定的左极限，则跳跃量 $F(x)-F(x-)=P(X=x)$。
 
-若 $P_X\ll dx$，即分布对[Lebesgue 测度（Lebesgue measure）](Lebesgue-measure.md) $dx$ [绝对连续（absolutely continuous）](Absolute-continuity-of-measures.md)，则概率密度为[Radon–Nikodym 导数（Radon–Nikodym derivative）](Radon-Nikodym-derivative.md) $f_X=dP_X/dx$，并满足 $f_X\ge0$、$\int f_X(x)\,dx=1$。这里是测度的导数记号，不是对函数作普通微分。
+若 $P_X\ll dx$，即分布对[Lebesgue 测度（Lebesgue measure）](Lebesgue-measure.md) $dx$ [绝对连续（absolutely continuous）](Absolute-continuity-of-measures.md)，则概率密度为[Radon–Nikodym 导数（Radon–Nikodym derivative）](Radon-Nikodym-derivative.md) $f_X=dP_X/dx$，并满足 $f_X\ge0$、$\int f_X(x)\,dx=1$。这里是测度的导数记号，不是对函数作普通微分。[^1]
 
 **注**：并非每个分布都有密度：[Dirac 分布（Dirac distribution）](Dirac-measure.md)与 Cantor 分布给出两类反例。
 
@@ -63,6 +63,6 @@ Bernoulli、Poisson、均匀及其他常用分布的参数、质量函数、密�
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Lévy Processes and Stochastic Calculus，个人笔记，附录 Review of measure and probability。
+[^1]: Chen Wang，*Notes on Lévy Processes and Stochastic Calculus*，个人笔记，Theorem A.2.5；第 75–76、78、81 页。
 
 [测度论导航](../测度论导航.md) · [概率论导航](../概率论导航.md) · [测度（Measure）](Measure.md)

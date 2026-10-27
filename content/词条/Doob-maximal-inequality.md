@@ -11,7 +11,7 @@ verified: false
 
 
 
-Doob 最大不等式以终端矩控制整个过去的最大偏移，是鞅收敛与随机积分估计的基本工具。[^D][^N]
+Doob 最大不等式以终端矩控制整个过去的最大偏移，是鞅收敛与随机积分估计的基本工具。[^1][^2]
 
 ## 最大概率估计
 
@@ -57,6 +57,8 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §4.4，Theorems 4.4.2、4.4.4。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 4.4.2、4.4.4；Example 4.4.5。
 
-[^N]: Chen Wang, Lecture Notes on Stochastic Processes，个人笔记。 第2章，Doob’s Inequality, Convergence in Lp。
+[^2]: Chen Wang, *Lecture Notes on Stochastic Processes*，个人笔记，式 (2.23)、(2.26)。
+
+

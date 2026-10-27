@@ -36,6 +36,8 @@ $\stackrel d=$ 表示[同分布（Equality in distribution）](Law-of-a-random-v
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.2，Theorem 3.2.8。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorem 3.2.8。
 
-[^2]: Bing-Yi Jing, Advanced Probability Theory, 讲义, July 2012. §9.2，Theorem 9.2.2。
+[^2]: Bing-Yi Jing, *Advanced Probability Theory*, lecture notes, July 2012，Theorem 9.2.2。
+
+

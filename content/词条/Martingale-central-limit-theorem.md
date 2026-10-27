@@ -98,4 +98,4 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §8.2，Theorems 8.2.1、8.2.3–8.2.4、8.2.8及相关截断引理；§8.3，Theorem 8.3.1。单时刻表述为同一证明在终点的形式，混合正态例为本条补充。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 8.2.1、8.2.3–8.2.4、8.2.8、8.3.1；Lemmas 8.2.5–8.2.7。

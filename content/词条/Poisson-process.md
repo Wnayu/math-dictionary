@@ -30,7 +30,7 @@ $$
 
 ## 补偿与二阶性质
 
-$\mathbb EN_t=\operatorname{Var}(N_t)=\lambda t$。相对于自然滤过，$M_t=N_t-\lambda t$ 是平方可积[鞅（Martingale）](Martingale.md)，因为 $\mathbb E[N_t-N_s\mid\mathcal F_s]=\lambda(t-s)$。其二次变差为 $[M]_t=N_t$，可预测二次变差为 $\langle M\rangle_t=\lambda t$，两者含义见[可预测二次变差（Predictable quadratic variation）](Predictable-quadratic-variation.md)。
+$\mathbb EN_t=\operatorname{Var}(N_t)=\lambda t$。相对于自然滤过，$M_t=N_t-\lambda t$ 是平方可积[鞅（Martingale）](Martingale.md)，因为 $\mathbb E[N_t-N_s\mid\mathcal F_s]=\lambda(t-s)$。其二次变差为 $[M]_t=N_t$，可预测二次变差为 $\langle M\rangle_t=\lambda t$，两者含义见[可预测二次变差（Predictable quadratic variation）](Predictable-quadratic-variation.md)。[^2]
 
 ## 稀疏化与叠加
 
@@ -45,4 +45,6 @@ $\mathbb EN_t=\operatorname{Var}(N_t)=\lambda t$。相对于自然滤过，$M_t=
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.7；David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §§1.3、2.2。
+[^1]: Rick Durrett，*Probability: Theory and Examples*，Version 5，2019年1月11日，第175–176页；Theorem 3.7.4。
+
+[^2]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，Example 1.3.9、Exercise 2.1.4；式 (4.15)。

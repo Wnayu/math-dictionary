@@ -11,7 +11,7 @@ verified: false
 
 
 
-反向鞅描述信息逐渐减少时的条件期望。它的极限由所有剩余信息的交决定。[^D]
+反向鞅描述信息逐渐减少时的条件期望。它的极限由所有剩余信息的交决定。[^1]
 
 ## 定义
 
@@ -40,4 +40,4 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §4.7，Theorems 4.7.1–4.7.3。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 249 页；Theorems 4.7.1–4.7.3。

@@ -47,4 +47,4 @@ $$
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §5.3.2，Theorem 5.13、Lemma 5.14 及有限二次变差的讨论。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorem 5.13、Lemma 5.14。

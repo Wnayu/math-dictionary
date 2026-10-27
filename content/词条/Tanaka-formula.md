@@ -53,4 +53,4 @@ $$
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §9.1，Propositions 9.1、9.2；右局部时约定见印刷页237。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，式 (9.5)–(9.7)；Propositions 9.1、9.2。

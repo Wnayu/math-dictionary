@@ -45,4 +45,4 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. Exercises 2.3.6、3.2.6。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Exercises 2.3.6、3.2.6–3.2.8。

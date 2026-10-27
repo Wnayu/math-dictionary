@@ -31,7 +31,7 @@ $$
 刻画。$\alpha=2$ 给出方差 $2c$ 的中心正态分布；$\alpha=1$ 给出尺度为 $c$ 的中心 Cauchy 分布。
 
 > [!proof]- 对称形式的稳定性验证
-> 独立求和把特征函数变成 $\varphi(t)^n=e^{-nc|t|^\alpha}$，而 $n^{1/\alpha}X$ 的特征函数为 $\varphi(n^{1/\alpha}t)=e^{-nc|t|^\alpha}$，由特征函数唯一性得到严格稳定性。这里以该函数确为特征函数为前提，其存在性见 Durrett §3.3.4 与 §3.8。
+> 独立求和把特征函数变成 $\varphi(t)^n=e^{-nc|t|^\alpha}$，而 $n^{1/\alpha}X$ 的特征函数为 $\varphi(n^{1/\alpha}t)=e^{-nc|t|^\alpha}$，由特征函数唯一性得到严格稳定性。这里以该函数确为特征函数为前提，其存在性见 Durrett Theorem 3.8.2 及式 (3.8.11)。
 
 ## 极限中的归一化
 
@@ -45,4 +45,4 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§3.3.4、3.8。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 191 页；式 (3.8.11)；Theorems 3.8.2、3.8.8；Example 3.8.7。

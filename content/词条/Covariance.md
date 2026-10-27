@@ -49,4 +49,4 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§1.6、2.1及练习4.1.7；矩阵与复数约定、反例为本条展开。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 56 页；Example 2.1.14；Theorems 2.2.1、3.10.7；Exercise 4.1.7。

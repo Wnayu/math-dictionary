@@ -56,4 +56,4 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §4.4，定理4.4.7及证明；本条先限于源中Lévy型积分，不将其证明冒充一般半鞅版本。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，式 (4.13)、(4.14)；Theorems 4.4.7、4.4.10。

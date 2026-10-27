@@ -42,7 +42,7 @@ $$
 
 ## 边界正则性与存在性
 
-边界点 $z$ 称为正则点，若从 $z$ 出发的 Brownian 运动几乎必然立即进入 $D$ 的补集，即 $P_z(\inf\{t>0:B_t\notin D\}=0)=1$。若所有边界点正则，上述期望在内部调和，且在边界连续取值 $g$，因而给出经典解。外锥条件是一种充分条件：每个边界点附近，补集含以该点为顶点、具有正开角的截断开锥。[^1]
+边界点 $z$ 称为正则点，若从 $z$ 出发的 Brownian 运动几乎必然立即进入 $D$ 的补集，即 $P_z(\inf\{t>0:B_t\notin D\}=0)=1$。若所有边界点正则，上述期望在内部调和，且在边界连续取值 $g$，因而给出经典解。[^2]外锥条件是一种充分条件：每个边界点附近，补集含以该点为顶点、具有正开角的截断开锥。[^1]
 
 在二维穿孔圆盘 $D=\{0<|x|<1\}$ 上，令外圆边界值为 $0$、孤立边界点 $0$ 的值为 $1$。这个 $g$ 在 $\partial D$ 上连续，但平面 Brownian 运动从非零点出发不击中原点，所以退出期望在 $D$ 内恒为零，不能连续取到原点处的值 $1$；故不存在该经典解。相关击中性质见 [Brownian 运动的常返与暂留（Brownian recurrence and transience）](Brownian-recurrence.md)。
 
@@ -50,4 +50,6 @@ $$
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §7.2，调和函数、Dirichlet问题与边界正则性；§7.3球上的解；Exercise 7.24穿孔区域反例。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Definitions 7.2、7.6、Proposition 7.7、Theorem 7.8、Exercise 7.24。
+
+[^2]: Rick Durrett，*Probability: Theory and Examples*，Version 5，2019年1月11日，第434页；Theorems 9.5.7、9.5.10。

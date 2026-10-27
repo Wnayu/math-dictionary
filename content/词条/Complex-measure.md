@@ -72,4 +72,4 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §3.3，Theorem 3.12、Proposition 3.13，印刷 pp.93–94。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Theorem 3.12；Proposition 3.13；第93页。

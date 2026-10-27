@@ -71,6 +71,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §6.1、§7.2。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，式 (6.1)–(6.4)（Definition 6.1）；Theorem 7.4；Proposition 7.7。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.3 Integration。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Definition 1.29；Theorem 1.30(1)–(5)。

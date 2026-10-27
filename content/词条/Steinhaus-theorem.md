@@ -40,6 +40,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, Version 4.3, 2022，习题4.11，印刷第40页；这里补出紧集—开集逼近证明。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercise 4.11；Proposition 4.14。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

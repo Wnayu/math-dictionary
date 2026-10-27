@@ -25,7 +25,7 @@ verified: false
 
 ## σ-有限版本
 
-仍设 $\mathcal A=\sigma(\mathcal P)$，并假设存在 $P_n\in\mathcal P$，使 $X=\bigcup_nP_n$ 且 $\mu(P_n)=\nu(P_n)<\infty$。如果两测度在 $\mathcal P$ 上一致，则它们在 $\mathcal A$ 上一致。
+仍设 $\mathcal A=\sigma(\mathcal P)$，并假设存在 $P_n\in\mathcal P$，使 $X=\bigcup_nP_n$ 且 $\mu(P_n)=\nu(P_n)<\infty$。如果两测度在 $\mathcal P$ 上一致，则它们在 $\mathcal A$ 上一致。[^1]
 
 > [!proof]- 证明
 > 固定 $n$，使用[限制测度（Restricted measure）](Restricted-measure.md) $\mu_n=\mu|_{P_n}$、$\nu_n=\nu|_{P_n}$，即 $\mu_n(A)=\mu(A\cap P_n)$、$\nu_n(A)=\nu(A\cap P_n)$。它们是有限测度，且在 $\mathcal P$ 上一致，因为 $\mathcal P$ 对交封闭。有限版本给出它们处处相同。将覆盖不交化为 $D_n=P_n\setminus\bigcup_{j<n}P_j$，则对任意 $A\in\mathcal A$，两测度在 $A\cap D_n$ 上一致。逐项求和即得 $\mu(A)=\nu(A)$。
@@ -34,7 +34,7 @@ verified: false
 
 ## 区间测度与分布函数
 
-实直线上的两个[局部有限 Borel 测度（locally finite Borel measures）](Regularity-of-measures.md)，如果对每个有界半开区间 $(a,b]$ 取值相同，则它们相同。尤其 $\mu((a,b])=b-a$ 唯一确定 Borel 长度测度。对于概率测度，[累积分布函数（cumulative distribution function）](Law-of-a-random-variable.md) $F(x)=\mu(( -\infty,x])$ 唯一决定该测度。
+实直线上的两个[局部有限 Borel 测度（locally finite Borel measures）](Regularity-of-measures.md)，如果对每个有界半开区间 $(a,b]$ 取值相同，则它们相同。尤其 $\mu((a,b])=b-a$ 唯一确定 Borel 长度测度。对于概率测度，[累积分布函数（cumulative distribution function）](Law-of-a-random-variable.md) $F(x)=\mu(( -\infty,x])$ 唯一决定该测度。[^2]
 
 ## 生成族与总质量
 
@@ -48,4 +48,6 @@ verified: false
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §4.5，Theorem 4.17 的唯一性证明；这里以 π–λ 定理写出常用生成族版本。
+[^1]: Rick Durrett，*Probability: Theory and Examples*，Version 5，January 11, 2019，Theorems A.1.4–A.1.5。
+
+[^2]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Theorem 4.17(4)；Exercise 3.9。

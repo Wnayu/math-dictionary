@@ -64,7 +64,7 @@ $X$ 完备（complete），指 $X$ 中每个 Cauchy 序列都收敛到 $X$ 中�
 
 **注**：度量完备性与[测度完备性（Completeness of a measure）](Complete-measure.md)是不同概念；后者要求零测集的任意子集都可测，不是在谈 Cauchy 序列。
 
-$X$ 可分（separable），指存在可数的[稠密子集（Dense subset）](Topological-space.md)。在度量空间中，这等价于存在可数拓扑基：可数稠密集的有理半径球给出一个基；反过来，从可数基的每个非空成员取一点即得到可数稠密集。一般拓扑空间中不能无条件使用这一等价关系。[^2]
+$X$ 可分（separable），指存在可数的[稠密子集（Dense subset）](Topological-space.md)。在度量空间中，这等价于存在可数拓扑基：可数稠密集的有理半径球给出一个基。[^2]反过来，从可数基的每个非空成员取一点即得到可数稠密集。一般拓扑空间中不能无条件使用这一等价关系。
 
 ## 连续、一致连续与 Lipschitz 连续
 
@@ -104,7 +104,7 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 第1章度量空间、连续性、Cauchy 序列与完备性；第10章收敛方式。
-[^2]: Chen Wang, Notes on Real Analysis，个人笔记。第1章可数拓扑基说明；第2章度量结构与函数空间的说明。本卡补写相关预备术语的量词定义。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，第3页。
+[^2]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Proposition 1.5 的证明。
 
 [测度论导航](../测度论导航.md) · [拓扑空间（Topological space）](Topological-space.md) · [赋范空间（Normed space）](Normed-space.md)

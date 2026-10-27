@@ -88,7 +88,7 @@ $$
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis，个人笔记。第2章开头的函数空间结构、Lp 等价类、范数、拟范数及对偶讨论。本卡为这些内容补齐相关基础定义。
-[^2]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 第1章向量空间、范数与诱导度量。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Lemma 2.4；Exercises 2.5、2.10；Proposition 2.14；Lemma 2.31；第35、37、39页。
+[^2]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，第4页。
 
 [测度论导航](../测度论导航.md) · [内积空间（Inner product space）](Inner-product-space.md)

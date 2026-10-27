@@ -44,7 +44,7 @@ $$
 
 ## 两两独立版本
 
-Etemadi 的版本把“相互独立”放宽为“两两独立”，仍要求同分布与绝对可积。上面使用独立级数的证明不能直接用于这个更弱的假设。Durrett §2.4 的证明改用非负变量、几何子列上的方差估计和单调夹逼；该版本的完整论证见所引教材。
+Etemadi 的版本把“相互独立”放宽为“两两独立”，仍要求同分布与绝对可积。上面使用独立级数的证明不能直接用于这个更弱的假设。Durrett Theorem 2.4.1 的证明改用非负变量、几何子列上的方差估计和单调夹逼；该版本的完整论证见所引教材。
 
 ## 可积性的必要性
 
@@ -61,4 +61,4 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§2.3–2.5，Theorems 2.3.8、2.4.1、2.4.5、2.5.10。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 2.3.8、2.4.1、2.4.5、2.5.10。

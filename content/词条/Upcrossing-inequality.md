@@ -11,7 +11,7 @@ verified: false
 
 
 
-上穿不等式控制随机序列从水平 $a$ 上升到 $b$ 的完成次数；有限次振荡是[鞅收敛定理（Martingale convergence theorem）](Martingale-convergence-theorem.md)的关键。[^D]
+上穿不等式控制随机序列从水平 $a$ 上升到 $b$ 的完成次数；有限次振荡是[鞅收敛定理（Martingale convergence theorem）](Martingale-convergence-theorem.md)的关键。[^1]
 
 ## 定义
 
@@ -42,4 +42,4 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §4.2，Theorem 4.2.10。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorem 4.2.10。

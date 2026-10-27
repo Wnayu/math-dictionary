@@ -82,7 +82,7 @@ $$
 \sqrt n\,\sup_x|\widehat F_n(x)-F(x)|
 \Rightarrow\sup_{0\le t\le1}|\beta_t|.
 $$
-这是实值统计量的依分布收敛。教材先用连续 $F$ 化为均匀样本，再把次序统计量表示为指数变量部分和的比值，应用[Donsker 定理（Donsker theorem）](Donsker-theorem.md)在 $C([0,1])$ 一致拓扑中的线性插值版本；最后使用连续泛函 $f\mapsto\sup_t|f(t)-tf(1)|$。其详细论证见 §8.4。原经验函数有跳跃，不能直接把 $\alpha_n$ 作为 $C([0,1])$ 中的随机元素而宣称路径弱收敛。
+这是实值统计量的依分布收敛。教材先用连续 $F$ 化为均匀样本，再把次序统计量表示为指数变量部分和的比值，应用[Donsker 定理（Donsker theorem）](Donsker-theorem.md)在 $C([0,1])$ 一致拓扑中的线性插值版本；最后使用连续泛函 $f\mapsto\sup_t|f(t)-tf(1)|$。其详细论证见 Durrett Theorem 8.4.3 的证明。原经验函数有跳跃，不能直接把 $\alpha_n$ 作为 $C([0,1])$ 中的随机元素而宣称路径弱收敛。
 
 **注**：连续性假设用于上述统一的 Kolmogorov–Smirnov 极限，未用于 Glivenko–Cantelli 定理。有原子时，$F(X_1)$ 一般不是均匀分布；不能在未核对条件时使用这个概率积分变换。
 
@@ -94,4 +94,4 @@ Glivenko–Cantelli 给出几乎每个样本上 $\widehat\mu_n\Rightarrow\mu$，
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §2.4，Example 2.4.8、Theorem 2.4.9；§8.4，Theorems 8.4.1、8.4.3。有限维经验过程极限与末段的集合误差比较为本条展开。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Example 2.4.8；Theorems 2.4.9、3.10.7、8.4.3。

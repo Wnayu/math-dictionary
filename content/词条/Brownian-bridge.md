@@ -11,7 +11,7 @@ verified: false
 
 
 
-Brownian 桥是固定两个端点的高斯路径模型。它与把 Brownian 运动直接条件于一个概率为零的事件有关，但必须通过条件分布的版本严格解释。[^L][^Y]
+Brownian 桥是固定两个端点的高斯路径模型。它与把 Brownian 运动直接条件于一个概率为零的事件有关，但必须通过条件分布的版本严格解释。[^1][^2]
 
 ## 定义
 
@@ -51,6 +51,6 @@ $$
 
 ## 参考文献
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. 第2章，Exercise 2.27；本条展开协方差与条件分布计算。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Exercise 2.27。
 
-[^Y]: Russell Lyons, Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall, August 10, 2025，课程讲义。 第8章中Brownian bridges练习。
+[^2]: Russell Lyons，*Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall*，课程讲义，2025年8月10日，第103页，未编号 Exercise “Brownian bridges”。

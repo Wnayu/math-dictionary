@@ -43,4 +43,4 @@ $\{\sum_nX_n\text{ 收敛}\}$ 是尾事件：改动有限项不会改变级数�
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §2.5，Theorems 2.5.3–2.5.4。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 2.5.3–2.5.4；第 81–82 页。

@@ -36,6 +36,6 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999，§1.3，习题13–15，印刷第27页。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，第1章 Exercises 13–15；第25页。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

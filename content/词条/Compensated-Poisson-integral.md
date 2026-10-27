@@ -51,4 +51,4 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §§4.2、4.3.2，尤其练习4.3.3与定理4.3.4。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，Theorem 4.2.3、Theorem 4.2.12、Exercise 4.3.3、Theorem 4.3.4；式 (4.16)。

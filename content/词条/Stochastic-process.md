@@ -11,7 +11,7 @@ verified: false
 
 
 
-随机过程把一族随机变量按时间或其他参数组织起来；有限维分布描述有限次观察，样本路径描述整个参数上的行为。[^L][^Y]
+随机过程把一族随机变量按时间或其他参数组织起来；有限维分布描述有限次观察，样本路径描述整个参数上的行为。[^1][^2]
 
 ## 定义
 
@@ -40,6 +40,6 @@ verified: false
 
 ## 参考文献
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §§1.3、2.2、3.1。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Definitions 1.5、2.6–2.8、3.2；第54页。
 
-[^Y]: Russell Lyons, Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall, August 10, 2025，课程讲义。 §§1.3、2.2、3.1。
+[^2]: Russell Lyons，*Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall*，课程讲义，2025年8月10日，Definitions 1.5、2.6–2.8、3.2。

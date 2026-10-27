@@ -38,7 +38,7 @@ $$
 >
 > 下界在相邻几何时刻之间使用独立增量。取略低于目标的阈值，可使对应正态尾概率之和发散，于是独立 Borel–Cantelli 引理给出无限多次越界。选择较大的 $\alpha$ 控制前一时刻的贡献，再逼近常数 $1$。对 $-B$ 应用相同论证得到下极限。
 >
-> 独立同分布和的版本通过 Skorohod 嵌入把部分和写成 $B(T_n)$，以时间增量的强大数定律控制 $T_n/n$，并补充时间区间中的路径误差估计。完整估计见 Durrett §8.5；仅有 $T_n/n\to1$ 这一句还不足以直接替换所有路径极限。
+> 独立同分布和的版本通过 Skorohod 嵌入把部分和写成 $B(T_n)$，以时间增量的强大数定律控制 $T_n/n$，并补充时间区间中的路径误差估计。完整估计见 Durrett Theorems 8.5.1–8.5.2 的证明；仅有 $T_n/n\to1$ 这一句还不足以直接替换所有路径极限。
 
 ## 与中心极限定理的关系
 
@@ -50,4 +50,4 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §8.5，Theorems 8.5.1–8.5.2。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 8.5.1–8.5.2。

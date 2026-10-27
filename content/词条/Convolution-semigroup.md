@@ -42,4 +42,4 @@ Lévy 过程的时刻分布形成这样的半群。反过来，用这些增量�
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §1.4、§3.3；强连续性估计为本条展开。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，第63页；Proposition 1.4.4、Theorem 1.4.5、Theorem 3.1.9；式 (3.11)。

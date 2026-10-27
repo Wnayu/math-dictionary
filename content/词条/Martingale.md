@@ -11,7 +11,7 @@ verified: false
 
 
 
-鞅表示给定当前信息时，未来值的条件均值等于当前值；定义同时要求适应性和可积性。[^D][^N]
+鞅表示给定当前信息时，未来值的条件均值等于当前值；定义同时要求适应性和可积性。[^1][^2]
 
 ## 定义
 
@@ -56,6 +56,8 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §4.2。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 217 页；Examples 4.2.1–4.2.3；Theorems 4.2.5–4.2.8。
 
-[^N]: Chen Wang, Lecture Notes on Stochastic Processes，个人笔记。 第2章，Definition and Examples of Martingales、Properties of Martingales；本条补齐鞅变换的非负性与可积性条件。
+[^2]: Chen Wang, *Lecture Notes on Stochastic Processes*，个人笔记，Definition 2.1；Examples 2.6–2.7；Theorem 2.9；式 (2.3)。
+
+

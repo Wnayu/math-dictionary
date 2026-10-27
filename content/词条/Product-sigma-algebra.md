@@ -50,6 +50,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §11.1。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，第90页。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.1，乘积可测空间及可数第二可数空间的Borel乘积练习。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Example 1.10；Exercise 1.11。

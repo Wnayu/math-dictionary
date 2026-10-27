@@ -11,7 +11,7 @@ verified: false
 
 
 
-更新过程记录相互独立、同分布的等待时间结束后系统重新开始的时刻。[^D][^N]
+更新过程记录相互独立、同分布的等待时间结束后系统重新开始的时刻。[^1][^2]
 
 ## 定义
 
@@ -48,6 +48,8 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §2.6。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 91–93 页；Exercise 2.6.4。
 
-[^N]: Chen Wang, Lecture Notes on Stochastic Processes，个人笔记。 第4章，Definition and Asymptotic Behavior、The age, the excess and the lifetime。
+[^2]: Chen Wang, *Lecture Notes on Stochastic Processes*，个人笔记，Definitions 4.1、4.16；式 (4.9)。
+
+

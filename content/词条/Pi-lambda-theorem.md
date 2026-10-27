@@ -17,7 +17,7 @@ verified: false
 
 
 
-$\pi$–$\lambda$ 定理（Dynkin's pi-lambda theorem）把一个交运算稳定的集合族上的性质，推广到其生成的整个 $\sigma$-代数。它尤其适合证明[测度唯一性（Uniqueness of measures）](Uniqueness-of-measures.md)。个人笔记在可测性讨论中提及此工具；这里给出完整陈述与证明。[^1]
+$\pi$–$\lambda$ 定理（Dynkin's pi-lambda theorem）把一个交运算稳定的集合族上的性质，推广到其生成的整个 $\sigma$-代数。它尤其适合证明[测度唯一性（Uniqueness of measures）](Uniqueness-of-measures.md)。[^1]
 
 ## 定义
 
@@ -54,4 +54,4 @@ $$
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.1 的连续映射可测性证明提及 π–λ 定理；本词条补写其标准定义、陈述和双重固定集合证明。
+[^1]: Rick Durrett，*Probability: Theory and Examples*，Version 5，January 11, 2019，Theorem A.1.4。

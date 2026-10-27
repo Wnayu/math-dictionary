@@ -50,6 +50,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §3.1，Example 3.2。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Example 3.2；Exercise 6.5。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.2，计数测度；一般可测空间的 σ-有限性条件在此明确为有限可测覆盖。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Example 1.18。

@@ -89,4 +89,4 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 定义10.1、命题10.2、10.5、例10.7；打字机序列为同类现象的二进制实现。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Definition 10.1；Propositions 10.2、10.5；Examples 10.3、10.7。

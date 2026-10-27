@@ -88,6 +88,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §5.1，定义5.1、命题5.5–5.11。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Definition 5.1；Propositions 5.5–5.8、5.10–5.11。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.1 Measurable Spaces。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Definition 1.1；Exercise 1.6；Definition 1.8。

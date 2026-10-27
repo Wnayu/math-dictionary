@@ -19,7 +19,7 @@ $\mathbb R^d$ 上概率测度 $\mu$ 称无限可分，若对每个整数 $n\ge1$
 
 ## 例
 
-高斯分布 $N(m,A)$ 的卷积 $n$ 次根可取 $N(m/n,A/n)$，允许 $A$ 半正定。Poisson 分布的参数按 $1/n$ 缩放；[复合 Poisson 分布（Compound Poisson distribution）](Compound-Poisson-process.md)也只需把到达强度除以 $n$。常数 $a$ 的点质量由 $n$ 个常数 $a/n$ 相加得到。
+高斯分布 $N(m,A)$ 的卷积 $n$ 次根可取 $N(m/n,A/n)$，允许 $A$ 半正定。Poisson 分布的参数按 $1/n$ 缩放；[复合 Poisson 分布（Compound Poisson distribution）](Compound-Poisson-process.md)也只需把到达强度除以 $n$。常数 $a$ 的点质量由 $n$ 个常数 $a/n$ 相加得到。[^2]
 
 ## 特征函数判别
 
@@ -41,4 +41,6 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §1.2；Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.9。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，Proposition 1.2.6、Examples 1.2.8–1.2.10、Corollary 1.4.6。
+
+[^2]: Rick Durrett，*Probability: Theory and Examples*，Version 5，2019年1月11日，Examples 3.9.2–3.9.5。

@@ -41,6 +41,8 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §2.7。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 105–106 页；式 (2.7.2)；Lemma 2.7.2。
 
-[^2]: Bing-Yi Jing, Advanced Probability Theory, 讲义, July 2012. §11.6。
+[^2]: Bing-Yi Jing, *Advanced Probability Theory*, lecture notes, July 2012，第 219 页；Lemma 11.6.1。
+
+

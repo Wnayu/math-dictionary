@@ -54,6 +54,6 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. Theorems 3.8、3.12；§3.5 的离散、绝对连续与奇异连续分解，印刷 p.106。
-[^2]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. Theorem 13.5，有限非负 ν 版本。
-[^3]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.4.2，纯点、奇异连续与绝对连续三部分分解练习，以及 Cantor 测度例子。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Theorems 3.8、3.12；第106页。
+[^2]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Theorem 13.5；Exercise 13.13。
+[^3]: Chen Wang，*Notes on Real Analysis*，个人笔记，Exercise 1.50；Example 1.51。

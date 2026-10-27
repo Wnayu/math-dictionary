@@ -55,6 +55,6 @@ $$
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §5.2，Theorem 5.10 及随后的时间依赖形式。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorem 5.10；第117页。
 
-[^2]: Russell Lyons, Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall, 讲义, 2025-08-10. §5.2，Itô 公式与分割逼近证明。
+[^2]: Russell Lyons，*Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall*，课程讲义，2025年8月10日，Theorem 5.10；第71–72页。

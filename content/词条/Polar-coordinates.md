@@ -75,4 +75,4 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §2.7，定理2.49、推论2.51–2.52、命题2.54；印刷第78–80页，定理与径向判别已核对PDF第91–92页。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，式 (2.50)；Theorem 2.49；Corollaries 2.51–2.52；Proposition 2.54。

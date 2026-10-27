@@ -45,14 +45,16 @@ $$
 
 ## 局部 Lipschitz 与爆炸
 
-空间局部 Lipschitz 可通过截断系数先构造到退出球的解；如果还保留上述线性增长控制，仍得到不爆炸的全局解。否则只保证爆炸前的唯一性。例如确定性方程 $dX_t=X_t^2dt$、$X_0=1$，系数局部 Lipschitz，但 $X_t=(1-t)^{-1}$ 在 $t=1$ 爆炸。
+空间局部 Lipschitz 可通过截断系数先构造到退出球的解；如果还保留上述线性增长控制，仍得到不爆炸的全局解。否则只保证爆炸前的唯一性。[^2]例如确定性方程 $dX_t=X_t^2dt$、$X_0=1$，系数局部 Lipschitz，但 $X_t=(1-t)^{-1}$ 在 $t=1$ 爆炸。
 
-Lyons 讲义把停止后的最大范数差值估计单列为引理，适合用于核对上述迭代与唯一性论证。[^2]
+Lyons 讲义把停止后的最大范数差值估计单列为引理，适合用于核对上述迭代与唯一性论证。[^3]
 
 [概率论导航](../概率论导航.md)
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §8.2 Theorem 8.3、Lemma 8.4；局部Lipschitz与增长条件的说明。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorem 8.3、Lemma 8.4；第212页的 Remark。
 
-[^2]: Russell Lyons, Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall, 讲义, 2025-08-10. §8.2，Theorem 8.3 前的停止过程估计及其证明。
+[^2]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，Theorem 6.2.11。
+
+[^3]: Russell Lyons，*Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall*，课程讲义，2025年8月10日，第106–107页，Theorem 8.3 后的未编号 Lemma 及其证明。

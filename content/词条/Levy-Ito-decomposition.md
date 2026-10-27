@@ -30,7 +30,7 @@ $$
 > $$
 > E\sup_{t\le T}|M_t^{(\delta)}-M_t^{(\varepsilon)}|^2\le4T\int_{\delta\le|z|<\varepsilon}|z|^2\nu(dz).
 > $$
-> 右侧随 $\varepsilon\downarrow0$ 趋零，因 $\nu$ 满足 Lévy 二阶小跳条件。故得到平方可积鞅极限及其 càdlàg 版本。大跳区域的强度有限，不需对跳幅加矩条件就能逐路径求有限和。给定三元组时将上述各项独立组合，计算其特征函数即得所需过程。对于一个已给定 Lévy 过程，证明其扣去跳跃项后的连续独立增量部分必为高斯，是分解定理的另一关键步骤；完整论证见所引第2.4节，本块不把这一识别步骤当作已证明。
+> 右侧随 $\varepsilon\downarrow0$ 趋零，因 $\nu$ 满足 Lévy 二阶小跳条件。故得到平方可积鞅极限及其 càdlàg 版本。大跳区域的强度有限，不需对跳幅加矩条件就能逐路径求有限和。给定三元组时将上述各项独立组合，计算其特征函数即得所需过程。对于一个已给定 Lévy 过程，证明其扣去跳跃项后的连续独立增量部分必为高斯，是分解定理的另一关键步骤；完整论证见 Applebaum 的 Theorem 2.4.16，本块不把这一识别步骤当作已证明。
 
 ## 漂移不等于均值
 
@@ -42,4 +42,4 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §2.4，特别是定理2.4.16及推论2.4.20。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，式 (2.25)；Theorem 2.4.16、Corollary 2.4.20。

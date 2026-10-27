@@ -11,7 +11,7 @@ verified: false
 
 
 
-大偏差研究随机量远离典型值时的指数衰减速率，与只研究局部高斯波动的中心极限定理互补。[^1][^2]
+大偏差研究随机量远离典型值时的指数衰减速率，与只研究局部高斯波动的中心极限定理互补。
 
 ## 定义
 
@@ -33,7 +33,7 @@ $$
 $$
 \lim_{n\to\infty}\frac1n\log P\left(\frac1n\sum_{k\le n}X_k\ge a\right)=-I(a).
 $$
-这里 $\operatorname{ess\,sup}$ 是[本质上确界（Essential supremum）](Essential-supremum.md)。全部实数上的指数矩假设是本卡选用的方便充分条件；仅在零附近有限的更一般版本见所引来源。
+这里 $\operatorname{ess\,sup}$ 是[本质上确界（Essential supremum）](Essential-supremum.md)。全部实数上的指数矩假设是本卡选用的方便充分条件；仅在零附近有限的更一般版本见所引来源。[^1][^2]
 
 > [!proof]- 证明
 > 上界由指数 Markov 不等式：对 $t>0$，$P(S_n\ge na)\le\exp\{-n(ta-K(t))\}$，再对 $t$ 优化。由于 $K$ 严格凸，$a$ 在均值与支撑上端之间，存在唯一正数 $t_a$ 满足 $K'(t_a)=a$，它实现上确界。
@@ -61,6 +61,8 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §2.7，指数倾斜与Cramér尾部结论。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，式 (2.7.2)；Theorem 2.7.7。
 
-[^2]: Bing-Yi Jing, Advanced Probability Theory, 讲义, July 2012. §11.6。
+[^2]: Bing-Yi Jing, *Advanced Probability Theory*, lecture notes, July 2012，Definition 11.6.1；Theorem 11.6.1。
+
+

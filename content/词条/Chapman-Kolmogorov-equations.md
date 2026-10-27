@@ -11,7 +11,7 @@ verified: false
 
 
 
-Chapman–Kolmogorov 方程把跨越两个时间段的转移分解为中间状态上的积分。[^D][^L]
+Chapman–Kolmogorov 方程把跨越两个时间段的转移分解为中间状态上的积分。[^1][^2]
 
 ## 定义及等价定义
 
@@ -47,6 +47,6 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §5.2。
+[^1]: Rick Durrett，*Probability: Theory and Examples*，Version 5，2019年1月11日，Theorem 5.2.4。
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §6.1。
+[^2]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Definition 6.1。

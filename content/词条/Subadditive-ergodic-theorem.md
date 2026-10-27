@@ -11,7 +11,7 @@ verified: false
 
 
 
-次可加遍历定理处理不能分解为逐项相加、但满足分段上界的随机量，例如随机游动的不同访问点数。[^D]
+次可加遍历定理处理不能分解为逐项相加、但满足分段上界的随机量，例如随机游动的不同访问点数。[^1]
 
 ## 定义
 
@@ -48,4 +48,4 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §6.4，Theorem 6.4.1及Example 6.4.3。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorem 6.4.1；Example 6.4.3。

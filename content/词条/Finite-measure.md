@@ -46,6 +46,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §3.1，Definition 3.7；§10.1。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Definition 3.7；Propositions 3.5(4)、10.2(1)。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §§1.2–1.3。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Definition 1.16；Examples 1.17–1.18；Theorem 1.30(3)。

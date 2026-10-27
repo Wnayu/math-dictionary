@@ -60,5 +60,5 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §3.1，印刷 pp.85–88。
-[^2]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §12.1，Definition 12.1。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Proposition 3.1；Theorems 3.3–3.4；第3章 Exercise 3；第85–86、88页。
+[^2]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Definition 12.1。

@@ -53,6 +53,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 定理11.3及例11.4–11.6；计数测度反例为例11.6框架下的显式双重级数。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，式 (11.4)（Theorem 11.3(b)）；Examples 11.4、11.6；Exercise 11.1。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.3，Fubini–Tonelli theorem。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Theorem 1.34(2)–(3)。

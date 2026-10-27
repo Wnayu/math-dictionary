@@ -42,4 +42,4 @@ $\sigma(X)=\{X^{-1}(B):B\in\mathcal S\}$ 是使 $X$ 可测的最小 σ-代数，
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§1.2–1.3。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 15 页；式 (1.3.1)；Theorem 1.3.1；Examples 1.3.2–1.3.3。

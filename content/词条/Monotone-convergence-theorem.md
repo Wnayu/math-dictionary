@@ -54,6 +54,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 定理7.1、命题7.6。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Theorem 7.1；Proposition 7.6。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.3，Convergence theorems。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Theorem 1.31(1)。

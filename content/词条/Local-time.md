@@ -55,4 +55,4 @@ Brownian 运动的局部时可以选为 $(t,a)$ 联合连续，因此两种约�
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §9.1 Proposition 9.2、9.3；§9.2 Theorem 9.4；§9.3 Proposition 9.9；§9.4 Theorem 9.12。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，式 (9.5)；Propositions 9.3、9.9、Theorems 9.4、9.12。

@@ -11,7 +11,7 @@ verified: false
 
 
 
-给定一个测度和一个非负可测函数，可以用积分定义新的测度。它把“空间中不同位置赋予不同权重”变为严格的测度构造。[^1]
+给定一个测度和一个非负可测函数，可以用积分定义新的测度。它把“空间中不同位置赋予不同权重”变为严格的测度构造。[^1][^2]
 
 ## 定义
 
@@ -19,7 +19,7 @@ verified: false
 $$
 (w\mu)(E):=\int_Ew\,d\mu,\qquad E\in\mathcal A.
 $$
-$w\mu$ 是一个新的集合函数，不是把两个数相乘；它对集合 $E$ 的取值，是 $w$ 在 $E$ 上相对于 $\mu$ 的 [Lebesgue 积分（Lebesgue integral）](Lebesgue-integral.md)。若令 $\nu=w\mu$，也写成 $d\nu=w\,d\mu$；这个微分形式仍表示上面的集合积分恒等式。把权函数改名为 $f$，同一记法就是 $f\mu$，满足 $(f\mu)(E)=\int_Ef\,d\mu$。[^1]
+$w\mu$ 是一个新的集合函数，不是把两个数相乘；它对集合 $E$ 的取值，是 $w$ 在 $E$ 上相对于 $\mu$ 的 [Lebesgue 积分（Lebesgue integral）](Lebesgue-integral.md)。若令 $\nu=w\mu$，也写成 $d\nu=w\,d\mu$；这个微分形式仍表示上面的集合积分恒等式。把权函数改名为 $f$，同一记法就是 $f\mu$，满足 $(f\mu)(E)=\int_Ef\,d\mu$。[^1][^2]
 
 对任意非负可测 $g$，有换测度积分公式
 $$
@@ -46,6 +46,8 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, Version 4.3, 2022，习题7.27；构造推广到非负可测权重由单调收敛直接给出。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercise 7.27。
+
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，式 (1.3)–(1.4)；Exercise 1.36。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

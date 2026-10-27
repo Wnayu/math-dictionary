@@ -44,4 +44,4 @@ $1_{\mathbb Q}$ 在 $[0,1]$ 的每一点都不连续，但可以删去包含有�
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §5.3，定理5.15及其证明；定理8.4。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Theorem 5.15；Example 5.16；Theorem 8.4。

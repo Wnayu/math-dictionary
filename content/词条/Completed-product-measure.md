@@ -51,4 +51,4 @@ $$
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.1，Borel乘积与Lebesgue乘积的比较；§1.3，Fubini–Tonelli theorem第3条。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Exercise 1.11；Theorem 1.34(3)。

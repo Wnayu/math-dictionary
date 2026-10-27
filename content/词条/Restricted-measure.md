@@ -48,6 +48,6 @@ $$
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.1 的 restriction；§1.2–1.3 的测度与积分。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Example 1.12；式 (1.3)–(1.4)（Exercise 1.36）。
 
-[^2]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §4.5 与第13章中限制到有限测度集合的论证。
+[^2]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercises 3.6、11.2。

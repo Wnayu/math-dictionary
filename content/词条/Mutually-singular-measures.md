@@ -50,6 +50,6 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §3.1，印刷 p.87；§3.2，印刷 p.89。
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.4.1，Hahn 分解后的零集、支撑与互相奇异定义。
-[^3]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. Examples 12.6–12.7。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，第87、89页；第3章 Exercise 19。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，第22页。
+[^3]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Examples 12.6–12.7。

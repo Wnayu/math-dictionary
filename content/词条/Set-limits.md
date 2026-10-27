@@ -39,7 +39,7 @@ $$
 $$
 \mu(\liminf E_n)\le\liminf\mu(E_n).
 $$
-若 $\mu(\bigcup_nE_n)<\infty$，还可对补集使用上述式子，得 $\mu(\limsup E_n)\ge\limsup\mu(E_n)$。
+若 $\mu(\bigcup_nE_n)<\infty$，还可对补集使用上述式子，得 $\mu(\limsup E_n)\ge\limsup\mu(E_n)$。[^2]
 
 **注**：第二式的有限性条件不能一般删去；计数测度下递减集合列的完整反例见[测度的连续性（Continuity of measures）](Continuity-of-measures.md)。
 
@@ -47,6 +47,8 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, Version 4.3, 2022，习题2.9；Gerald B. Folland, Real Analysis, 2nd ed., Wiley, 1999，§1.3 习题8。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercise 2.9。
+
+[^2]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，第1章 Exercise 8。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

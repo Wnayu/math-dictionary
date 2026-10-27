@@ -108,7 +108,7 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §3.1，Proposition 3.5 与 Example 3.6；§3.2，Exercises 3.1–3.2。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Proposition 3.5(3)–(4)；Example 3.6；Exercises 3.1–3.2。
 
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。Review of Measure Theory 中的 Measure Spaces，测度的从下连续性、从上连续性及其有限性条件。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Exercise 1.21(3)–(4)。

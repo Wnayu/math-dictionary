@@ -77,6 +77,6 @@ $\mathbb N$ 上所有有限集及其补集构成有限—余有限代数。它�
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §2.1 Definition 2.1；§4.5 的前测度定义。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Definition 2.1；第36页。
 
-[^2]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §1.2，Proposition 1.7 与 Exercise 1，印刷 pp.23–24。
+[^2]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Proposition 1.7；第1章 Exercise 1；第23页。

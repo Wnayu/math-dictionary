@@ -65,6 +65,6 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §1.5，Proposition 1.15 与 Theorem 1.16，印刷 pp.33–35。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Proposition 1.15；Theorem 1.16；第35页。
 
-[^2]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §§4.1–4.3，Example 4.4、Propositions 4.8–4.9 与 §4.2 结尾。
+[^2]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Example 4.4；Propositions 4.8–4.9；Exercises 4.1、4.4。

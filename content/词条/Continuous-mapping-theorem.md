@@ -46,4 +46,4 @@ verified: false
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.2，Theorem 3.2.10；度量空间版本由本条给出的 Portmanteau 论证补充。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorem 3.2.10；Theorem 3.10.1(vi)。

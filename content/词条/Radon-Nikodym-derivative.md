@@ -65,5 +65,5 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §3.2，Proposition 3.9、Corollary 3.10，印刷 p.91。
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.4，关于加权测度、密度唯一性与离散密度的练习；密度唯一性使用有限测度分块和截断。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Proposition 3.9；Corollary 3.10；第91页。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，式 (1.3)–(1.5)；Exercises 1.37、1.39。

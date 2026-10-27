@@ -34,14 +34,14 @@ $$
 
 第二条称积分族的一致绝对连续性（uniform absolute continuity）。
 
-**注**：有些文献用它定义“一致可积”，因此引用时须注明约定，不能漏掉有限测度与 $L^1$ 有界性。[^1][^2]
+**注**：有些文献用它定义“一致可积”，因此引用时须注明约定，不能漏掉有限测度与 $L^1$ 有界性。[^1]
 
 > [!proof]- 两种条件的转换
 > 尾部判据给出 $\int_E|f|\le M\mu(E)+\int_{\{|f|>M\}}|f|$，从而先选 $M$ 再选 $\delta$ 得到小集控制；取 $E=X$ 并使用 $\mu(X)<\infty$ 得到 $L^1$ 一致有界。反向设范数上界为 $C$，则 Markov 不等式给出 $\mu\{|f|>M\}\le C/M$。把此集合代入小集条件即可。
 
 ## 与控制函数和 Lp 有界性的关系
 
-若 $|f|\le g\in L^1$ 对整个族成立，则该族一致可积。若某个 $p>1$ 满足 $\sup_f\int|f|^p<\infty$，则
+若 $|f|\le g\in L^1$ 对整个族成立，则该族一致可积。[^2] 若某个 $p>1$ 满足 $\sup_f\int|f|^p<\infty$，则
 $$
 \int_{\{|f|>M\}}|f|\le M^{1-p}\int|f|^p,
 $$
@@ -68,6 +68,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 习题7.21、7.24（印刷第66–67页）。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercises 7.21、7.24。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.3，单个可积函数的小集积分控制练习；本文把该控制写为函数族形式。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Exercise 1.33。

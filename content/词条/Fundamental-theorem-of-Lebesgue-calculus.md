@@ -58,4 +58,4 @@ Cantor 函数满足 $F'=0$ 几乎处处且 $F'\in L^1$，但 $F(1)-F(0)=1$。其
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. Theorem 3.35，§3.5，印刷 p.106；相关 Propositions 3.30、3.32。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Theorem 3.35；Propositions 3.30、3.32。

@@ -53,4 +53,4 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 引理10.4、命题10.5；概率形式由其在概率空间上的应用得到。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Lemma 10.4；Proposition 10.5。

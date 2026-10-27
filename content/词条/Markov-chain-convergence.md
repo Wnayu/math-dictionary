@@ -11,7 +11,7 @@ verified: false
 
 
 
-可数状态 Markov 链趋于平稳分布，需要区分正常返性、不可约性和周期性各自的作用。[^D]
+可数状态 Markov 链趋于平稳分布，需要区分正常返性、不可约性和周期性各自的作用。[^1]
 
 ## 收敛定理
 
@@ -42,4 +42,4 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §5.6，尤其Theorem 5.6.6及耦合证明。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 5.6.1、5.6.6；式 (5.6.1)；Example 5.6.2。

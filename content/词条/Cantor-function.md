@@ -50,4 +50,4 @@ Cantor 测度是[奇异连续部分（singular continuous part）](Discrete-cont
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §4.3，Example 4.11，印刷 pp.32–33；第12章中 Cantor–Lebesgue 函数产生奇异测度的例子。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Examples 4.11、12.7。

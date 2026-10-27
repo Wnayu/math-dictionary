@@ -44,4 +44,4 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §4.4，Theorem 4.16 及其证明，印刷 pp.35–36。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Theorem 4.16。

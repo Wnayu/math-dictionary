@@ -31,7 +31,7 @@ X_t=X_0+M_t+A_t,
 $$
 其中 $M$ 是从零出发的连续[局部鞅（local martingale）](Local-martingale.md)，$A$ 是从零出发的连续适应过程，且几乎每条路径在每个有限区间上[有界变差（bounded variation）](Bounded-variation.md)，则称 $X$ 为连续半鞅。该分解在不可区分意义下唯一。[^1]
 
-一般实值右连续有左极限的适应过程 $X$ 称为半鞅，若可写成 $X=X_0+M+A$，其中 $M$ 是从零出发的右连续有左极限局部鞅，$A$ 是从零出发的右连续有左极限适应过程，且在每个紧时间区间上有界变差。此时允许 $M,A$ 跳跃。若还可要求 $A$ 可预测，就称为特殊半鞅（special semimartingale），这个可预测分解唯一；一般分解不能照搬连续情形的唯一性结论。[^2]
+一般实值右连续有左极限的适应过程 $X$ 称为半鞅，若可写成 $X=X_0+M+A$，其中 $M$ 是从零出发的右连续有左极限局部鞅，$A$ 是从零出发的右连续有左极限适应过程，且在每个紧时间区间上有界变差。此时允许 $M,A$ 跳跃。[^2]若还可要求 $A$ 可预测，就称为特殊半鞅（special semimartingale），这个可预测分解唯一；一般分解不能照搬连续情形的唯一性结论。
 
 ## 连续分解的唯一性
 
@@ -52,6 +52,6 @@ Brownian 运动、连续有限变差过程、$X_t=X_0+\int_0^t b_sds+\int_0^t\si
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §4.2 Theorem 4.8；§4.5 Definition 4.19；§5.1–5.2。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorem 4.8、Definition 4.19、Theorems 5.6、5.10。
 
-[^2]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §2.2.1，半鞅与特殊半鞅的讨论；§4.4，跳跃积分器。
+[^2]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，第137页。

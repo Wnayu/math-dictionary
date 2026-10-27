@@ -11,7 +11,7 @@ verified: false
 
 
 
-Brownian 反射原理在首次达到一个水平后翻转后续增量，把最大值事件转化为终点事件。[^L][^Y]
+Brownian 反射原理在首次达到一个水平后翻转后续增量，把最大值事件转化为终点事件。[^1][^2]
 
 ## 定义
 
@@ -40,6 +40,6 @@ $$
 
 ## 参考文献
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §2.4，Theorem 2.21。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorem 2.21。
 
-[^Y]: Russell Lyons, Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall, August 10, 2025，课程讲义。 §2.4，Theorem 2.21。
+[^2]: Russell Lyons，*Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall*，课程讲义，2025年8月10日，Theorem 2.21。

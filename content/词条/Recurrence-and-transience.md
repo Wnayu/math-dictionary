@@ -11,7 +11,7 @@ verified: false
 
 
 
-常返性比较从一个状态出发后是否必然返回；正常返进一步要求平均返回时间有限。[^D][^N]
+常返性比较从一个状态出发后是否必然返回；正常返进一步要求平均返回时间有限。[^1][^2]
 
 ## 定义
 
@@ -42,6 +42,8 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§5.3、5.5。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 281、306 页；Theorems 5.3.1–5.3.3、5.5.12。
 
-[^N]: Chen Wang, Lecture Notes on Stochastic Processes，个人笔记。 第3章，Markov chain on a countable state space。
+[^2]: Chen Wang, *Lecture Notes on Stochastic Processes*，个人笔记，Definitions 3.33、3.72；Theorems 3.36、3.38、3.73。
+
+

@@ -44,4 +44,4 @@ Lévy 连续性定理把概率分布的弱收敛转换为特征函数的逐点�
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.3.2，Theorem 3.3.17。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorem 3.3.17。

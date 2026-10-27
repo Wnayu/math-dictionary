@@ -52,6 +52,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 定理11.3的非负部分；习题11.10。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，式 (11.4)（Theorem 11.3(a)）；Exercise 11.10。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.3，Fubini–Tonelli theorem。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Theorem 1.34(1)。

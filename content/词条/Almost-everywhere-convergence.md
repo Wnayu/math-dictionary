@@ -40,4 +40,4 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 定义10.1、命题10.2、例10.3及10.6。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Definition 10.1；Proposition 10.2；Examples 10.3、10.6。

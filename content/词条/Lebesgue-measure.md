@@ -58,8 +58,8 @@ $\mathcal B(\mathbb R^n)$ 是[Borel σ-代数（Borel sigma-algebra）](Borel-si
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §§4.1–4.4，Examples 4.3、4.10–4.13 与 Theorems 4.6、4.16。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，式 (4.1)；Example 4.3；Theorems 4.6、4.16；Examples 4.10–4.13；Exercise 4.5。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §§1.1–1.3，Lebesgue 完备化与乘积测度。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Exercise 1.22；Theorems 1.27、1.34(3)。
 
-[^3]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §1.5，Theorem 1.16 及其后注释，印刷 p.35。
+[^3]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Theorem 1.16；第35页。

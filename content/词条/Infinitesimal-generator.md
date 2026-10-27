@@ -11,7 +11,7 @@ verified: false
 
 
 
-生成元是 Markov 半群在零时刻的强导数；它由算子公式与定义域共同组成，只给微分表达式并不能完全指定生成元。[^G][^L]
+生成元是 Markov 半群在零时刻的强导数；它由算子公式与定义域共同组成，只给微分表达式并不能完全指定生成元。[^1][^2]
 
 ## 定义
 
@@ -57,6 +57,6 @@ $$
 
 ## 参考文献
 
-[^G]: Chen Wang, Notes on GTM 274，个人笔记。 1.19，生成元定义及Brownian生成元的分布意义定义域；本条重写并补齐核平滑论证。
+[^1]: Chen Wang，*Notes on GTM 274*，个人笔记，式 (2.1)；Theorem 1.13、Theorem 2.6。
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. 第6章Feller半群；Brownian微分算子与第7章热方程联系。
+[^2]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Definition 6.9、Propositions 6.10、6.11；第161–162页。

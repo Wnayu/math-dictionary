@@ -60,4 +60,4 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §4.3，Examples 4.11 与 4.13，印刷 pp.32–33。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Examples 4.11、4.13、5.12。

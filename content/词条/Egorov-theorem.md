@@ -57,6 +57,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 定理10.8。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Theorem 10.8。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.3，Convergence theorems中的Egorov条款。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Theorem 1.31(5)。

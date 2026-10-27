@@ -56,12 +56,12 @@ $$
 
 ## 小跳的一阶与二阶可积性
 
-对 $\nu(dx)=1_{(0,1)}x^{-2}dx$（$1_{(0,1)}$ 为[指示函数（indicator function）](Measurable-function.md)），$\int x^2\,d\nu=1$，而 $\int x\,d\nu=\infty$。因此二次加权可积不推出小跳的一阶绝对可积。
+对 $\nu(dx)=1_{(0,1)}x^{-2}dx$（$1_{(0,1)}$ 为[指示函数（indicator function）](Measurable-function.md)），$\int x^2\,d\nu=1$，而 $\int x\,d\nu=\infty$。因此二次加权可积不推出小跳的一阶绝对可积。[^1]
 
 **注**：它与[概率分布（probability distribution）](Law-of-a-random-variable.md)的密度不是同一对象；测度总质量不要求为 $1$。过程构造由[Lévy–Itô 分解（Lévy–Itô decomposition）](Levy-Ito-decomposition.md)承接，特征指数由[Lévy–Khintchine 公式（Lévy–Khintchine formula）](Levy-Khintchine-formula.md)说明。
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Lévy Processes and Stochastic Calculus，个人笔记，第一章 Lévy 测度定义 (ch1:eq-1-10) 前关于有限跳跃强度与期望计数的说明、该定义、引理 ch1:result-1-2-13 及小跳补偿的例子。
+[^1]: Chen Wang，*Notes on Lévy Processes and Stochastic Calculus*，个人笔记，式 (1.7)–(1.8)，Lemma 1.1.18；第 10–12 页。
 
 [测度论导航](../测度论导航.md) · [概率论导航](../概率论导航.md) · [测度（Measure）](Measure.md)

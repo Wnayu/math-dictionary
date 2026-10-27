@@ -63,4 +63,4 @@ $dX_t=\mu dt+\sigma dB_t$ 的解为 $X_t=x+\mu t+\sigma B_t$。乘法噪声与�
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §8.1 Definitions 8.1、8.2；§8.3，解过程与生成元。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Definitions 8.1、8.2、Theorem 8.7。

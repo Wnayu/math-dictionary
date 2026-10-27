@@ -11,7 +11,7 @@ verified: false
 
 
 
-停时要求“是否已经停止”可以由当时的信息判断；它为在随机时刻观察过程提供可测性基础。[^D][^L]
+停时要求“是否已经停止”可以由当时的信息判断；它为在随机时刻观察过程提供可测性基础。[^1][^2]
 
 ## 定义
 
@@ -48,6 +48,6 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§4.2、4.8。
+[^1]: Rick Durrett，*Probability: Theory and Examples*，Version 5，2019年1月11日，第220、367页。
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §3.2。
+[^2]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Definition 3.5、Propositions 3.6、3.9；第45–47页。

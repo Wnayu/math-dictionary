@@ -52,8 +52,8 @@ Borel 长度测度 $m_B$ 不完备，其完备化是[Lebesgue 测度（Lebesgue 
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §4.2，Lebesgue–Stieltjes 构造及其结尾的逆向构造；§4.3。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Example 4.4；Propositions 4.8–4.9；Exercise 4.1。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.2，Borel 测度的 Lebesgue 完备化。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Exercise 1.22。
 
-[^3]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §1.5，Theorem 1.16 及其后注释，印刷 p.35。
+[^3]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Theorem 1.16；第33、35页。

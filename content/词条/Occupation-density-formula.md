@@ -50,4 +50,4 @@ $$
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §9.2 Theorem 9.6、Corollary 9.7；§9.3 Proposition 9.9。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，式 (9.13)；Corollary 9.7、Proposition 9.9。

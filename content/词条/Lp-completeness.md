@@ -41,6 +41,6 @@ $0<p<1$ 时，用 $d(f,g)=\int_X|f-g|^p\,d\mu$ 的度量仍有完备性，证明
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis，个人笔记，第2章。该章整理自 Terence Tao, An Epsilon of Room, I, §1.3；此处按笔记及其文末勘误重述。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Proposition 2.14；Exercise 2.5(i)。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

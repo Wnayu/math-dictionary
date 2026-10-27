@@ -51,4 +51,4 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §4.1及练习4.1.1；事件比例、全概率公式与数值例由概率公理展开。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 206 页；Example 4.1.5；Exercise 4.1.1。

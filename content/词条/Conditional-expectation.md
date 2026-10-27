@@ -43,12 +43,12 @@ $$
 
 条件期望线性、保持非负性，且 $\mathbb E Y=\mathbb EX$。若 $\mathcal H\subseteq\mathcal G$ 也是子 σ-代数，则有塔式性质 $\mathbb E[\mathbb E(X\mid\mathcal G)\mid\mathcal H]=\mathbb E(X\mid\mathcal H)$。对 $1\le p\le\infty$，它是 $L^p$ [收缩算子（Contraction operator）](Normed-space.md)，即 $\|\mathbb E[X\mid\mathcal G]\|_p\le\|X\|_p$（当 $X\in L^p(P)$）；$p=2$ 时为到 $L^2(\mathcal G)$ 的[正交投影（Orthogonal projection）](Inner-product-space.md)：$Y\in L^2(\mathcal G)$，且 $\mathbb E[(X-Y)\overline Z]=0$ 对每个 $Z\in L^2(\mathcal G)$ 成立。这里 $L^p(\mathcal G)=L^p(\Omega,\mathcal G,P|_{\mathcal G})$ 表示具有 $\mathcal G$-可测代表的子空间，范数仍由 $P$ 计算，见 [Lp 空间（Lp space）](Lp-space.md)。
 
-若 $X$ [独立于（Independent of）](Independence.md) $\mathcal G$，即 $\sigma(X)$ 与 $\mathcal G$ 独立，则 $Y=\mathbb EX$；若 $X$ 已经 $\mathcal G$-可测，则 $Y=X$。
+若 $X$ [独立于（Independent of）](Independence.md) $\mathcal G$，即 $\sigma(X)$ 与 $\mathcal G$ 独立，则 $Y=\mathbb EX$；若 $X$ 已经 $\mathcal G$-可测，则 $Y=X$。[^1]
 
 **注**：本卡采用概率空间版本：一般 $\sigma$-有限测度限制到任意子 σ-代数后未必仍 $\sigma$-有限，不能直接把上面的存在性论证照搬过去。另见 [Doob–Dynkin 引理（Doob–Dynkin lemma）](Doob-Dynkin-lemma.md)。
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Lévy Processes and Stochastic Calculus，个人笔记，附录 Review of measure and probability。
+[^1]: Chen Wang，*Notes on Lévy Processes and Stochastic Calculus*，个人笔记，Theorem A.2.5；第 78–80 页。
 
 [测度论导航](../测度论导航.md) · [概率论导航](../概率论导航.md) · [测度（Measure）](Measure.md)

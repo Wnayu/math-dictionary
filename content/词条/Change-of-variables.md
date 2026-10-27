@@ -86,4 +86,4 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §2.6，定理2.44、推论2.46、定理2.47；后者印刷第74–76页（PDF第87–89页）。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，式 (2.45)；Theorem 2.44(b)；Corollary 2.46；Theorem 2.47。

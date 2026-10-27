@@ -53,5 +53,5 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. Theorem 3.8、Theorem 3.12；§3.2 Exercise 13，印刷 pp.90–93。
-[^2]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. Theorem 13.4 给出有限 ν 版本；§13.4 的相关推广。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Theorems 3.8、3.12；第3章 Exercise 13(a)。
+[^2]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Theorem 13.4；Exercises 13.1、13.3。

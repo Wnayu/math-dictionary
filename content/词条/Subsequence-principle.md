@@ -60,4 +60,4 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 命题10.2及例10.3；等价刻画由该命题与反证法得到。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Proposition 10.2；Example 10.3。

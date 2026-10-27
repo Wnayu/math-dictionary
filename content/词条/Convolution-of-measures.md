@@ -42,6 +42,6 @@ $\delta_a*\delta_b=\delta_{a+b}$；两个 $[0,1]$ [均匀分布（Uniform distri
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Lévy Processes and Stochastic Calculus，个人笔记，第一章卷积定义及命题 ch1:result-1-2-1、ch1:result-1-2-2。
+[^1]: Chen Wang，*Notes on Lévy Processes and Stochastic Calculus*，个人笔记，式 (1.1)–(1.2)；Theorem 1.1.1；Propositions 1.1.3–1.1.4。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

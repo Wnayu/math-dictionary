@@ -48,4 +48,4 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§1.3、2.1及3.10；边缘密度与对角线例为本条据定义展开。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 15、197 页；Example 1.3.3；Theorems 2.1.11–2.1.12、3.10.4、3.10.6。

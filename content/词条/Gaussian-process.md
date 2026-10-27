@@ -11,7 +11,7 @@ verified: false
 
 
 
-高斯过程的全部有限维分布由均值函数与协方差函数决定，但每个坐标单独正态并不足以保证联合高斯。[^L][^Y]
+高斯过程的全部有限维分布由均值函数与协方差函数决定，但每个坐标单独正态并不足以保证联合高斯。[^1][^2]
 
 ## 定义
 
@@ -47,6 +47,6 @@ $$
 
 ## 参考文献
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. 第1章，尤其§§1.2–1.4。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，式 (1.1)；Proposition 1.2、Definitions 1.4、1.6、1.12、Theorem 1.11。
 
-[^Y]: Russell Lyons, Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall, August 10, 2025，课程讲义。 第1章，Gaussian Variables and Gaussian Processes。
+[^2]: Russell Lyons，*Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall*，课程讲义，2025年8月10日，式 (1.1)；Proposition 1.2、Definitions 1.4、1.6、1.12。

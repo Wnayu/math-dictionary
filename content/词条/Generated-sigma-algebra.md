@@ -51,6 +51,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §2.1，Lemma 2.7 后的定义。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Lemma 2.7；第12–13页。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.1，生成、交与并以及由函数生成的 σ-代数。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Example 1.4；Definition 1.8；Remark 1.9。

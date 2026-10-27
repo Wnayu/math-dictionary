@@ -45,4 +45,4 @@ Cramér–Wold 判据（Cramér–Wold device）适用于任意 $\mathbb R^d$ �
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§3.4.1、3.10，特别是Theorems 3.10.5–3.10.7。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 3.4.1、3.10.5–3.10.7。

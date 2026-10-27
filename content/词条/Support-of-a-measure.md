@@ -41,6 +41,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, Version 4.3, 2022，习题4.8。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercise 4.8。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

@@ -55,4 +55,4 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 习题7.21–7.24与命题10.2；本文给出依测度版本的推导，并集中说明一致可积的空间逃逸反例。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercises 7.21–7.24；Proposition 10.2。

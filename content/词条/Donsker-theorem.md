@@ -23,7 +23,7 @@ $$
 
 ## 从嵌入到路径收敛
 
-以下论证采用 Durrett §8.1 的 Skorohod 嵌入：在适当扩充的概率空间上，可取 Brownian 运动和递增停时 $T_k$，使整组 $(B(T_k)-B(T_{k-1}))_k$ 与 $(X_k/\sigma)_k$ 同分布，且时间增量 $T_k-T_{k-1}$ 独立同分布、均值为 $1$。该嵌入定理的构造见所引教材，和[弱收敛的 Skorohod 表示定理（Skorohod representation theorem）](Skorohod-representation-theorem.md)不同。
+以下论证采用 Durrett Theorems 8.1.1–8.1.2 的 Skorohod 嵌入：在适当扩充的概率空间上，可取 Brownian 运动和递增停时 $T_k$，使整组 $(B(T_k)-B(T_{k-1}))_k$ 与 $(X_k/\sigma)_k$ 同分布，且时间增量 $T_k-T_{k-1}$ 独立同分布、均值为 $1$。该嵌入定理的构造见所引教材，和[弱收敛的 Skorohod 表示定理（Skorohod representation theorem）](Skorohod-representation-theorem.md)不同。
 
 > [!proof]- 基于 Skorohod 嵌入的证明
 > 时间增量的强大数定律给出 $T_k/k\to1$ 几乎必然，进而
@@ -51,4 +51,4 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §8.1，Theorems 8.1.1–8.1.4。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 8.1.1–8.1.2、8.1.4；Example 8.1.6。

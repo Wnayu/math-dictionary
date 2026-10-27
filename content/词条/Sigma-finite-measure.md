@@ -46,6 +46,6 @@ $\mathbb R$ 上的计数测度不是 $\sigma$-有限，因为有限测度集必�
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §3.1，Definition 3.7 及其后的递增覆盖说明。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Definition 3.7。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.2，有限测度与计数测度；本文对一般 σ-代数明确补足有限可测覆盖条件。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Definition 1.16；Example 1.18。

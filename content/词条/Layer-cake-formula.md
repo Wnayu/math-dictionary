@@ -57,4 +57,4 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 第11章定理11.3（非负Fubini–Tonelli）；本文公式为所列证明给出的推论。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercise 11.5；Theorem 11.3(a)。

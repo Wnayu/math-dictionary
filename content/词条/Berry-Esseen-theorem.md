@@ -34,7 +34,7 @@ Durrett 所给版本可取 $C=3$；这里不声称该常数最优。
 > $$
 > Esseen 平滑不等式把分布函数距离控制为该特征函数差除以 $|t|$ 在 $[-T,T]$ 的积分，加上 $C/T$。取 $T=c\sqrt n/\beta$，积分 $\int_{\mathbb R}t^2e^{-ct^2}dt$ 有限，得到 $C\beta/\sqrt n$ 的阶。
 >
-> 这里展示证明结构；特征函数乘积估计及平滑不等式的证明见 Durrett §3.4.4 或 Jing §§10.7、11.2，不据此声称已经在本卡推导出数值常数 $3$。
+> 这里展示证明结构；特征函数乘积估计及平滑不等式的证明见 Durrett Theorem 3.4.17 或 Jing Lemma 10.7.2、Corollary 11.2.2，不据此声称已经在本卡推导出数值常数 $3$。
 
 ## 与普通中心极限定理的区别
 
@@ -46,6 +46,8 @@ Durrett 所给版本可取 $C=3$；这里不声称该常数最优。
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.4.4，Theorem 3.4.17。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorem 3.4.17。
 
-[^2]: Bing-Yi Jing, Advanced Probability Theory, 讲义, July 2012. §§10.7、11.2。
+[^2]: Bing-Yi Jing, *Advanced Probability Theory*, lecture notes, July 2012，Lemma 10.7.2；Corollaries 11.2.2、11.2.4。
+
+

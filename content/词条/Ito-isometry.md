@@ -53,4 +53,4 @@ $$
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §5.1 Theorem 5.4；平方可积连续鞅的二次变差见 Theorem 4.13。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，式 (5.6)–(5.8)；Theorems 4.13、5.4。

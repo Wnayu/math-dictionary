@@ -48,6 +48,8 @@ verified: false
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§2.3、3.2。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 67、116 页；Lemma 2.2.2；Theorem 2.3.2。
 
-[^2]: Bing-Yi Jing, Advanced Probability Theory, 讲义, July 2012. 第6章。
+[^2]: Bing-Yi Jing, *Advanced Probability Theory*, lecture notes, July 2012，第 110–111 页；Theorems 6.3.1、6.4.1。
+
+

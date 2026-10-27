@@ -60,4 +60,4 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §3.5，式 (3.31)、Proposition 3.32、Lemma 3.34、Theorem 3.35，印刷 pp.105–106。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，式 (3.31)；Proposition 3.32；Lemma 3.34；Theorem 3.35；第3章 Exercise 37。

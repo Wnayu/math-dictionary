@@ -39,7 +39,7 @@ $$
 
 
 > [!proof]- 积分判据的证明
-> 联合分布等于乘积分布时，[Fubini 定理（Fubini theorem）](Fubini-theorem.md)把乘积函数的积分拆为各边缘积分的乘积。反方向先取 $f_j=1_{B_j}$，得到所有Borel矩形上的测度相等；由[测度唯一性（Uniqueness of measures）](Uniqueness-of-measures.md)推广到整个乘积Borel结构，即联合分布等于乘积测度。
+> 联合分布等于乘积分布时，[Fubini 定理（Fubini theorem）](Fubini-theorem.md)把乘积函数的积分拆为各边缘积分的乘积。反方向先取 $f_j=1_{B_j}$，得到所有Borel矩形上的测度相等；由[测度唯一性（Uniqueness of measures）](Uniqueness-of-measures.md)推广到整个乘积Borel结构，即联合分布等于乘积测度。[^1]
 
 若 $X\in L^1(P)$，即 $X$ 关于 $P$ 可积，且独立于 $\mathcal G$，则[条件期望（Conditional expectation）](Conditional-expectation.md)满足 $\mathbb E[X\mid\mathcal G]=\mathbb EX$ 几乎必然。
 
@@ -51,6 +51,6 @@ $$
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Lévy Processes and Stochastic Calculus，个人笔记，附录 Review of measure and probability。
+[^1]: Chen Wang，*Notes on Lévy Processes and Stochastic Calculus*，个人笔记，Theorem A.2.7；第 80–81 页。
 
 [测度论导航](../测度论导航.md) · [概率论导航](../概率论导航.md) · [测度（Measure）](Measure.md)

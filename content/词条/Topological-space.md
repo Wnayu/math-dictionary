@@ -47,7 +47,7 @@ verified: false
 
 ## 定义
 
-集合 $X$ 上的拓扑（topology）是一个子集族 $\mathcal T\subseteq 2^X$，满足：$\varnothing,X\in\mathcal T$；任意多个成员的并仍在 $\mathcal T$ 中；有限多个成员的交仍在 $\mathcal T$ 中。二元组 $(X,\mathcal T)$ 称为拓扑空间（topological space），$\mathcal T$ 的成员称为开集（open set）。集合 $F$ 称为闭集（closed set），若 $X\setminus F$ 是开集。这里 $2^X$ 是[幂集（Power set）](Set-algebra.md)。
+集合 $X$ 上的拓扑（topology）是一个子集族 $\mathcal T\subseteq 2^X$，满足：$\varnothing,X\in\mathcal T$；任意多个成员的并仍在 $\mathcal T$ 中；有限多个成员的交仍在 $\mathcal T$ 中。二元组 $(X,\mathcal T)$ 称为拓扑空间（topological space），$\mathcal T$ 的成员称为开集（open set）。集合 $F$ 称为闭集（closed set），若 $X\setminus F$ 是开集。这里 $2^X$ 是[幂集（Power set）](Set-algebra.md)。[^2]
 
 集合 $N\subseteq X$ 是点 $x$ 的邻域（neighborhood），若存在开集 $U$ 使 $x\in U\subseteq N$；邻域本身不必开。若 $N$ 同时是开集，则称开邻域（open neighborhood）。
 
@@ -79,7 +79,7 @@ $A\subseteq X$ 的子空间拓扑（subspace topology）为 $\{A\cap U:U\in\math
 
 $X$ 是 Hausdorff 空间（Hausdorff space），指任意不同的 $x,y\in X$ 有互不相交的开邻域。所有[度量空间（Metric space）](Metric-space.md)都满足此性质。
 
-开覆盖（open cover）是开集族 $\{U_i\}_{i\in I}$，满足 $K\subseteq\bigcup_{i\in I}U_i$。集合 $K\subseteq X$ 紧致（compact），指每个开覆盖都含有限子覆盖，即存在有限多个指标 $i_1,\ldots,i_m$ 使 $K\subseteq\bigcup_{j=1}^mU_{i_j}$。本文“紧集”与“紧致集”同义。$\mathbb R^n$ 中紧集恰为闭且[有界（Bounded）](Metric-space.md)的集合；一般度量空间中仅闭且有界不足以保证紧致。[^2]
+开覆盖（open cover）是开集族 $\{U_i\}_{i\in I}$，满足 $K\subseteq\bigcup_{i\in I}U_i$。集合 $K\subseteq X$ 紧致（compact），指每个开覆盖都含有限子覆盖，即存在有限多个指标 $i_1,\ldots,i_m$ 使 $K\subseteq\bigcup_{j=1}^mU_{i_j}$。本文“紧集”与“紧致集”同义。$\mathbb R^n$ 中紧集恰为闭且[有界（Bounded）](Metric-space.md)的集合；一般度量空间中仅闭且有界不足以保证紧致。[^3][^2]
 
 局部紧致（locally compact）在本专题中指每个点都有一个紧邻域，即对每个 $x$ 存在开集 $U$ 和紧集 $K$ 使 $x\in U\subseteq K$。在 Hausdorff 空间中，这也等价于每点有闭包紧致的开邻域。本专题涉及局部紧致的一般拓扑论断时同时说明 Hausdorff 假设。局部紧致描述拓扑；[局部有限测度（Locally finite measure）](Regularity-of-measures.md)则要求每个点存在有限测度的邻域。
 
@@ -97,7 +97,9 @@ $X$ 连通（connected），指不能写成两个互不相交的非空开集的�
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis，个人笔记。第1章关于 Borel 结构、可数拓扑基和积拓扑的说明；第2章开头的拓扑结构说明。本卡将相关预备术语补写为明确的标准定义。
-[^2]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 第1章预备知识中的度量拓扑与紧致性。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Example 1.10；Exercise 1.11；第33页。
+
+[^2]: Chen Wang，*Notes on Lévy Processes and Stochastic Calculus*，个人笔记，Theorem A.1.3；第65–66页。
+[^3]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，第3页；Remark 1.3；Proposition 1.4。
 
 [测度论导航](../测度论导航.md)

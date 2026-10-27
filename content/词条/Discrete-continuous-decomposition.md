@@ -60,5 +60,5 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §3.5，Theorem 3.35 后关于离散、连续、奇异连续测度的讨论，印刷 p.106。
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.4.2，三部分分解练习与 Cantor 测度例子。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，第106页。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Exercise 1.50；Example 1.51。

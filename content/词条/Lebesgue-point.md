@@ -53,4 +53,4 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. Theorem 3.20、Theorem 3.21、Exercises 24–25，印刷 pp.97–100。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Theorems 3.20–3.21；第3章 Exercises 24–25；第97页。

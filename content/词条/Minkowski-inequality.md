@@ -45,6 +45,6 @@ $$
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis，个人笔记，第2章。该章整理自 Terence Tao, An Epsilon of Room, I, §1.3；此处按笔记及其文末勘误重述。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Lemma 2.4(iii)；式 (2.4)–(2.5)；Exercise 2.5(i)、(iii)；第45页。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

@@ -51,4 +51,4 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §1.3.2及subordination讨论；稳定次协调子常数见例1.3.18。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，式 (1.24)、(1.27)；Theorem 1.3.15、Examples 1.3.18、1.3.22、Proposition 1.3.27。

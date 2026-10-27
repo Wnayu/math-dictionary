@@ -51,6 +51,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 命题5.14。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Proposition 5.14。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.3，Standard facts about integration，简单函数的积分范数逼近。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Theorem 1.30(7)。

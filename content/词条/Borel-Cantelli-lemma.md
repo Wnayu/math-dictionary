@@ -26,7 +26,7 @@ Borel–Cantelli 引理把集合或事件的测度之和，与“无穷多次发
 
 ## 独立事件的反向结论
 
-在[概率空间（Probability space）](Probability-measure.md) $(\Omega,\mathcal F,P)$ 中，若事件 $(E_n)$ 相互[独立（independent）](Independence.md)且 $\sum_nP(E_n)=\infty$，则 $P(\limsup E_n)=1$。以下 $E_n^c=\Omega\setminus E_n$ 为事件的补集，见[集合代数（Set algebra）](Set-algebra.md)。
+在[概率空间（Probability space）](Probability-measure.md) $(\Omega,\mathcal F,P)$ 中，若事件 $(E_n)$ 相互[独立（independent）](Independence.md)且 $\sum_nP(E_n)=\infty$，则 $P(\limsup E_n)=1$。[^2] 以下 $E_n^c=\Omega\setminus E_n$ 为事件的补集，见[集合代数（Set algebra）](Set-algebra.md)。
 
 > [!proof]- 证明
 > 对 $m\ge N$，独立性给出
@@ -40,6 +40,8 @@ Borel–Cantelli 引理把集合或事件的测度之和，与“无穷多次发
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, Version 4.3, 2022，习题4.6。第二部分为利用个人 Lévy 过程笔记“Independence and product measures”中独立性定义给出的补充命题及证明。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercise 4.6(3)–(4)。
+
+[^2]: Rick Durrett，*Probability: Theory and Examples*，Version 5，January 11, 2019，Theorem 2.3.7；Example 2.3.6。
 
 [测度论导航](../测度论导航.md) · [概率论导航](../概率论导航.md) · [测度（Measure）](Measure.md)

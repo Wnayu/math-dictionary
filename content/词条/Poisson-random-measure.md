@@ -45,4 +45,4 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §2.3，尤其定理2.3.6；Campbell与Laplace等式为本条按Poisson计数性质展开。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，式 (2.5)；Theorems 2.3.6、2.3.7(1)–(2)；第103–104页。

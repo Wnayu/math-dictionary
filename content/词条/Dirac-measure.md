@@ -60,6 +60,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §3.1，Examples 3.3–3.4。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Examples 3.3–3.4；Exercise 6.4。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.2，Dirac 测度与测度线性组合；§1.3，积分。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Examples 1.17、1.19。

@@ -57,6 +57,6 @@ $$
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §5.5 Theorem 5.22；§5.6 的漂移变换。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorem 5.22；第138页。
 
-[^2]: Russell Lyons, Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall, 讲义, 2025-08-10. 第5章附录 The Cameron–Martin and Girsanov Theorems，印刷页80–82。
+[^2]: Russell Lyons，*Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall*，课程讲义，2025年8月10日，Theorem 5.22；第80–81页。

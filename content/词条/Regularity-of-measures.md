@@ -71,6 +71,6 @@ $$
 
 ## 参考文献
 
-[^1]: Gerald B. Folland, Real Analysis: Modern Techniques and Their Applications, 2nd ed., Wiley, 1999. §1.5，Lemma 1.17、Theorem 1.18 与 Theorem 1.19 的陈述，印刷 pp.35–36。
+[^1]: Gerald B. Folland，*Real Analysis: Modern Techniques and Their Applications*，2nd ed.，Wiley，1999，Lemma 1.17；Theorems 1.18–1.19。
 
-[^2]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §4.3，Proposition 4.14 与 Corollary 4.15。
+[^2]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Proposition 4.14；Corollary 4.15。

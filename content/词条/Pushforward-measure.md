@@ -59,4 +59,4 @@ $$
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.2，push-forward定义；§1.3，Standard facts about integration中的change of variables公式。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Example 1.20；Theorem 1.30(8)。

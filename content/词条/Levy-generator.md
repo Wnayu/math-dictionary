@@ -41,4 +41,4 @@ $C_c^\infty$ 表示无限次连续可微且支集紧的函数；$\nabla f$ 是�
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §3.3，定理3.3.3；本条用§4.4的Itô方法说明同一生成元公式。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，Theorem 3.3.3；式 (4.14)。

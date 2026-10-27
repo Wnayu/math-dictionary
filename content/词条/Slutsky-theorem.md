@@ -41,6 +41,8 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.2。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Exercises 3.2.13–3.2.14；Theorem 3.10.1(vi)。
 
-[^2]: Bing-Yi Jing, Advanced Probability Theory, 讲义, July 2012. 第6章，Slutsky 定理。
+[^2]: Bing-Yi Jing, *Advanced Probability Theory*, lecture notes, July 2012，Theorem 6.6.4。
+
+

@@ -60,6 +60,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 定义6.2；第8章。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Definition 6.2；Proposition 6.3(1)；Exercise 6.1。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.3，Standard facts about integration及其后的绝对连续性练习。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Theorem 1.30(3)、(6)；Exercise 1.33。

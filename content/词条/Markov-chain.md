@@ -11,7 +11,7 @@ verified: false
 
 
 
-Markov 链要求给定当前状态后，下一步的条件分布不再依赖更早的历史。这里首先采用可数状态空间和离散时间的约定。[^D][^N]
+Markov 链要求给定当前状态后，下一步的条件分布不再依赖更早的历史。这里首先采用可数状态空间和离散时间的约定。[^1][^2]
 
 ## 定义
 
@@ -45,6 +45,8 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§5.1–5.3、5.6。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 269、282、312 页；式 (5.2.1)；Lemma 5.6.4；Example 5.6.2。
 
-[^N]: Chen Wang, Lecture Notes on Stochastic Processes，个人笔记。 第3章，Construction of Markov Chain、Properties of Markov Chain。
+[^2]: Chen Wang, *Lecture Notes on Stochastic Processes*，个人笔记，式 (3.1)；Definitions 3.25、3.40–3.41、3.83；Theorem 3.87。
+
+

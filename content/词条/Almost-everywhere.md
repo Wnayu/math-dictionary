@@ -52,6 +52,6 @@ verified: false
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.2，零集、全测度与几乎处处；§1.3，积分。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Definition 1.16；Exercise 1.22；Theorem 1.30(5)。
 
-[^2]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §5.1，Definition 5.9。
+[^2]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Definition 5.9。

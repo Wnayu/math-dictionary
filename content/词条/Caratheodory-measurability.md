@@ -49,4 +49,4 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §4.1，Definition 4.5 与 Theorem 4.6；印刷 pp.26–28。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，式 (4.2)（Definition 4.5）；Theorem 4.6。

@@ -11,7 +11,7 @@ verified: false
 
 
 
-依赖平稳序列的中心极限定理需要对远过去的影响作额外控制。本条采用 Durrett §8.3 的条件期望可和条件及其混合系数充分条件；仅有平稳性和遍历性并不够。[^D]
+依赖平稳序列的中心极限定理需要对远过去的影响作额外控制。本条采用 Durrett Theorems 8.3.2、8.3.7 的条件期望可和条件及其混合系数充分条件；仅有平稳性和遍历性并不够。[^1]
 
 ## 条件期望可和的版本
 
@@ -100,7 +100,7 @@ E|X_0|^{2+\delta}<\infty,
 \qquad
 \sum_{n=1}^\infty\alpha_1(n)^{\delta/[2(2+\delta)]}<\infty,
 $$
-其中 $\alpha_1(n)=\alpha(\mathcal F_{-n},\sigma(X_0))$ 为[过去与单点的混合系数（Past-to-single-variable mixing coefficient）](Mixing-processes.md)，则上述函数极限定理及绝对收敛的方差公式成立。这是 Durrett Theorem 8.3.7 的条件。[^D]
+其中 $\alpha_1(n)=\alpha(\mathcal F_{-n},\sigma(X_0))$ 为[过去与单点的混合系数（Past-to-single-variable mixing coefficient）](Mixing-processes.md)，则上述函数极限定理及绝对收敛的方差公式成立。这是 Durrett Theorem 8.3.7 的条件。[^1]
 
 > [!proof]- 混合条件推出条件期望可和
 > 条件期望的 $L^2$ 范数有对偶表示
@@ -135,7 +135,7 @@ $$
 $$
 X_k=\sum_{r=0}^\infty(r+1)^{-a}\xi_{k-r}.
 $$
-系数平方可和，级数在 $L^2$ 中定义出零均值高斯过程。它是独立序列在移位下的可测函数，因此严格平稳且遍历。这个移动平均例子来自 Durrett Example 8.3.5；以下用高斯创新直接检查 $\sqrt n$ 归一化为什么失效。[^D]
+系数平方可和，级数在 $L^2$ 中定义出零均值高斯过程。它是独立序列在移位下的可测函数，因此严格平稳且遍历。这个移动平均例子来自 Durrett Example 8.3.5；以下用高斯创新直接检查 $\sqrt n$ 归一化为什么失效。[^1]
 
 对 $1\le j\le\lfloor n/2\rfloor$，$S_n$ 中 $\xi_j$ 的系数为 $\sum_{r=0}^{n-j}(r+1)^{-a}\ge c n^{1-a}$，其中 $c>0$ 与 $n,j$ 无关。独立性给出
 $$
@@ -149,4 +149,4 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §8.3，Theorems 8.3.1、8.3.2、8.3.7，Examples 8.3.3、8.3.5，印刷页402–409。本文展开自然过去滤过版本的鞅分解、方差识别与混合条件推导；一般函数型鞅定理由专门词条承接。高斯移动平均的不紧计算在本条补写。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 8.3.1–8.3.2、8.3.7；Lemma 8.3.6；Examples 8.3.3、8.3.5。

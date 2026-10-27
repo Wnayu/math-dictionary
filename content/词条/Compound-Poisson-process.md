@@ -39,7 +39,7 @@ $$
 $$
 \operatorname{Cov}(X_t)=\lambda t\,E[Z_1Z_1^T].
 $$
-右侧是未中心化的二阶矩；计数本身的波动贡献了均值的平方。条件方差公式见[方差与协方差（Variance and covariance）](Covariance.md)。
+右侧是未中心化的二阶矩；计数本身的波动贡献了均值的平方。条件方差公式见[方差与协方差（Variance and covariance）](Covariance.md)。[^2]
 
 有限时间内只有有限次到达，故每条路径在紧区间上有界变差，即使跳幅分布没有一阶矩，仍可逐路径有限求和。这种路径有限性不推出 $E|X_t|<\infty$。
 
@@ -51,4 +51,6 @@ Lévy 测度有限、Gaussian 部分为零的 Lévy 过程可写成确定性线�
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §§1.2.3、1.3.1；Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.7.1。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，式 (1.22)；Proposition 1.2.11、Proposition 1.3.11。
+
+[^2]: Rick Durrett，*Probability: Theory and Examples*，Version 5，2019年1月11日，Theorem 3.7.3。

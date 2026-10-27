@@ -50,6 +50,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 控制收敛定理7.9；§7.5，习题7.10（印刷 p.64）给出模长积分判据，习题7.9给出相关的非负函数逐集积分收敛结论。本条分别列出非负版本以及同时适用于实值、复值函数的模长判据证明。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercises 7.9–7.10；Theorem 7.9。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

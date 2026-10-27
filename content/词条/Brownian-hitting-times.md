@@ -11,7 +11,7 @@ verified: false
 
 
 
-Brownian 首达时刻的分布展示了“几乎必然有限”与“期望有限”的区别，也是可选停止条件的具体检验。[^L][^D]
+Brownian 首达时刻的分布展示了“几乎必然有限”与“期望有限”的区别，也是可选停止条件的具体检验。[^1][^2]
 
 ## 单个水平
 
@@ -56,6 +56,6 @@ $$
 
 ## 参考文献
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §2.4及相关首达时刻练习。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorem 2.21、Corollary 2.22。
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§7.4.2、7.5。
+[^2]: Rick Durrett，*Probability: Theory and Examples*，Version 5，2019年1月11日，式 (7.4.3)；Theorems 7.5.3、7.5.5。

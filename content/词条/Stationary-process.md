@@ -11,7 +11,7 @@ verified: false
 
 
 
-平稳性要求时间平移保持分布结构；它不包含独立性，也不自动给出时间平均等于总体均值。[^D]
+平稳性要求时间平移保持分布结构；它不包含独立性，也不自动给出时间平均等于总体均值。[^1]
 
 ## 定义
 
@@ -40,4 +40,4 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§6.1–6.2。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 331–332 页；Examples 6.1.4–6.1.5；Theorem 6.2.1。

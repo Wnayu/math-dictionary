@@ -71,4 +71,4 @@ $$
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §5.1，Theorems 5.4、5.6，Propositions 5.8、5.9；§5.2 的 Brownian 例。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，式 (5.11)、(5.12)；Theorems 5.4、5.6、5.10、Propositions 5.8、5.9；第110、116页。

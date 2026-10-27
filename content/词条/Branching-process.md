@@ -11,7 +11,7 @@ verified: false
 
 
 
-Galton–Watson 分枝过程用每个个体独立产生后代的机制描述种群代际变化。[^D]
+Galton–Watson 分枝过程用每个个体独立产生后代的机制描述种群代际变化。[^1]
 
 ## 定义
 
@@ -51,4 +51,4 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §4.3.4。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Lemma 4.3.9；Theorems 4.3.10–4.3.12。

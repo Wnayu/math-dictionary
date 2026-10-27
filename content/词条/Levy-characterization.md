@@ -47,4 +47,4 @@ $\delta_{ij}$ 是 Kronecker 符号，$i=j$ 时为 $1$，否则为 $0$。[^1]
 
 ## 参考文献
 
-[^1]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §5.3.1，Theorem 5.12。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorem 5.12。

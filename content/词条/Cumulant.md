@@ -50,4 +50,4 @@ $$
 
 ## 参考文献
 
-[^1]: Bing-Yi Jing, Advanced Probability Theory, 讲义, July 2012. §§11.4.3、11.6.3。
+[^1]: Bing-Yi Jing, *Advanced Probability Theory*, lecture notes, July 2012，第 211、219 页。

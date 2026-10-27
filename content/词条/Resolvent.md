@@ -11,7 +11,7 @@ verified: false
 
 
 
-预解算子是转移半群关于时间的 Laplace 变换；在 Feller 理论中，它把所有 $C_0$ 函数映到生成元定义域。[^L][^Y][^G]
+预解算子是转移半群关于时间的 Laplace 变换；在 Feller 理论中，它把所有 $C_0$ 函数映到生成元定义域。[^1][^2][^3]
 
 ## 定义
 
@@ -69,8 +69,8 @@ $$
 
 ## 参考文献
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §6.1。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Definition 6.5、Proposition 6.12；第156、161页。
 
-[^Y]: Russell Lyons, Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall, August 10, 2025，课程讲义。 §6.1，Definition 6.5及预解恒等式。
+[^2]: Russell Lyons，*Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall*，课程讲义，2025年8月10日，Definition 6.5；第86–87页。
 
-[^G]: Chen Wang, Notes on GTM 274，个人笔记。 1.5与1.19中的预解算子、生成元逆关系及Brownian例子；修正原笔记例子空间积分下限。
+[^3]: Chen Wang，*Notes on GTM 274*，个人笔记，式 (1.5)、(1.6)、(2.2)、(2.3)；Example 2.5。

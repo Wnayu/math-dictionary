@@ -11,7 +11,7 @@ verified: false
 
 
 
-Kolmogorov 连续性定理把增量的高阶矩估计转化为连续修改与 Hölder 正则性；它的结论是存在一个修改，而非原先任意选定的过程都具有连续路径。[^L][^Y]
+Kolmogorov 连续性定理把增量的高阶矩估计转化为连续修改与 Hölder 正则性；它的结论是存在一个修改，而非原先任意选定的过程都具有连续路径。[^1][^2]
 
 ## 定义
 
@@ -44,6 +44,6 @@ Brownian 增量满足 $p$ 阶矩为 $c_p|t-s|^{p/2}$，所以 $\varepsilon=p/2-1
 
 ## 参考文献
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §2.2，Theorem 2.9。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorem 2.9、Corollary 2.11。
 
-[^Y]: Russell Lyons, Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall, August 10, 2025，课程讲义。 §2.2，Theorem 2.9。
+[^2]: Russell Lyons，*Stochastic Calculus: Lecture notes based on the book by J.-F. Le Gall*，课程讲义，2025年8月10日，Theorem 2.9。

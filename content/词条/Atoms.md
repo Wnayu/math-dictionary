@@ -11,7 +11,7 @@ verified: false
 
 
 
-原子（atom）是不能再分为两个正测度部分的可测集合。[点质量（Point mass）](Dirac-measure.md)是最常见的原子，但在一般可测空间中，“原子”与“单点”不是同义词。[^1]
+原子（atom）是不能再分为两个正测度部分的可测集合。[点质量（Point mass）](Dirac-measure.md)是最常见的原子，但在一般可测空间中，“原子”与“单点”不是同义词。
 
 ## 定义
 
@@ -27,12 +27,12 @@ verified: false
 
 ## 点质量与连续部分
 
-$\mathbb R^d$ 上的 $\sigma$-有限非负 Borel 测度只有至多可数个正点质量。有限测度的点质量可数性证明、离散部分的构造及三部分分解，集中见[离散—连续分解（Discrete and continuous decomposition of measures）](Discrete-continuous-decomposition.md)。
+$\mathbb R^d$ 上的 $\sigma$-有限非负 Borel 测度只有至多可数个正点质量。[^1] 有限测度的点质量可数性证明、离散部分的构造及三部分分解，集中见[离散—连续分解（Discrete and continuous decomposition of measures）](Discrete-continuous-decomposition.md)。
 
 **注**：一般可测空间中“每个单点质量为零”与“没有任何可测原子”需要区分；本词条不把前者当作任意空间上的充分条件。
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis，个人笔记，§1.4.2，习题 ex:tao12-9 及其补充证明。点质量内容依该笔记；一般可测原子的定义及两点例为概念说明。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Exercise 1.50。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

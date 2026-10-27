@@ -49,4 +49,4 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. 定理1.2.14、其充分性证明、推论2.4.20及§1.2的三元组讨论；本条固定截断并说明符号差异。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，式 (1.12)、(2.26)；Theorem 1.2.14、Corollaries 2.4.20、2.4.21。

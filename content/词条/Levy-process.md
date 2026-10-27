@@ -44,4 +44,4 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §§1.3–1.4。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，第43页；Proposition 1.3.1、Theorem 1.3.3、Proposition 1.4.4、Theorems 2.1.8、2.1.10。

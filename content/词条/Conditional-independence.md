@@ -19,7 +19,7 @@ verified: false
 $$
 \mathbb E[1_A1_B\mid\mathcal G]=\mathbb E[1_A\mid\mathcal G]\mathbb E[1_B\mid\mathcal G]\quad\text{a.s.}
 $$
-随机变量 $X,Y$ 条件独立指 $\sigma(X),\sigma(Y)$ 满足此条件。这里每个固定 $(A,B)$ 的等式都是几乎必然等式，不先假定存在对所有集合共同适用的逐点版本。[^1]
+随机变量 $X,Y$ 条件独立指 $\sigma(X),\sigma(Y)$ 满足此条件。这里每个固定 $(A,B)$ 的等式都是几乎必然等式，不先假定存在对所有集合共同适用的逐点版本。
 
 ## 等价积分判据
 
@@ -43,10 +43,10 @@ $$
 
 ## 与 Markov 性的关系
 
-[Markov 性（Markov property）](Markov-process.md)把“给定现在以后，未来不再需要过去的信息”写成条件期望恒等式。条件独立给这种陈述一个精确的可测结构解释；应用时仍要明确过去、现在和未来各自生成的 σ-代数。
+[Markov 性（Markov property）](Markov-process.md)把“给定现在以后，未来不再需要过去的信息”写成条件期望恒等式。条件独立给这种陈述一个精确的可测结构解释；应用时仍要明确过去、现在和未来各自生成的 σ-代数。[^1]
 
 [概率论导航](../概率论导航.md)
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §4.1的条件期望方法与§5.2的Markov条件化；本条定义、等价判据及两个有限样本反例据这些方法展开，不归为书中某个同名定理。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 4.1.9、4.1.13–4.1.14；Exercise 5.2.1。

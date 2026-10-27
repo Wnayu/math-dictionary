@@ -53,6 +53,6 @@ Borel 长度测度的完备化就是[Lebesgue 测度（Lebesgue measure）](Lebe
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.2，完备化习题及其证明。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Exercise 1.22；Remark 1.23。
 
-[^2]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §3.1 完备性定义与 Exercise 3.8。
+[^2]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercise 3.8；第19页。

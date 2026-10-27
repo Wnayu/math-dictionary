@@ -18,7 +18,7 @@ Prohorov 定理把概率分布的紧性与弱收敛子列的存在联系起来�
 实轴上的概率测度族 $\mathcal P$ [紧（Tight）](Tightness.md)，当且仅当从 $\mathcal P$ 中选出的任意序列都有弱收敛到一个概率测度的子列。这里的“相对序列紧”允许极限不在原族内。
 
 > [!proof]- 证明
-> 先假设紧。对分布函数 $F_n$，在可数稠密的有理数集上逐点抽取对角子列，使每个 $r\in\mathbb Q$ 都有 $F_{n_k}(r)\to G(r)$。$G$ 在有理数上非降，定义
+> 先假设紧。[^2]对分布函数 $F_n$，在可数稠密的有理数集上逐点抽取对角子列，使每个 $r\in\mathbb Q$ 都有 $F_{n_k}(r)\to G(r)$。$G$ 在有理数上非降，定义
 > $$
 > F(x)=\inf_{r\in\mathbb Q,\,r>x}G(r).
 > $$
@@ -38,4 +38,6 @@ Prohorov 定理把概率分布的紧性与弱收敛子列的存在联系起来�
 
 ## 参考文献
 
-[^1]: Terence Tao, 275A 概率论讲义, 2015. Notes 4，Theorem 11；Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.2，Helly 选择及紧性判据。
+[^1]: Terence Tao, *275A, Notes 4: The central limit theorem*, 2015，Theorem 11。
+
+[^2]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 3.2.12–3.2.14。

@@ -40,6 +40,6 @@ $\|f_n-f\|_\infty\to0$ 等价于存在一个固定零集 $N$，使 $f_n\to f$ �
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Real Analysis，个人笔记，第2章。该章整理自 Terence Tao, An Epsilon of Room, I, §1.3；此处按笔记及其文末勘误重述。
+[^1]: Chen Wang，*Notes on Real Analysis*，个人笔记，Exercise 2.9；第38页。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

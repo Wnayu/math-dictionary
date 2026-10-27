@@ -11,7 +11,7 @@ verified: false
 
 
 
-滤过用递增的事件信息描述观察如何随时间积累，是鞅、停时和随机积分的共同基础。[^L][^N]
+滤过用递增的事件信息描述观察如何随时间积累，是鞅、停时和随机积分的共同基础。[^1][^2]
 
 ## 定义
 
@@ -43,6 +43,6 @@ $$
 
 ## 参考文献
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §3.1。
+[^1]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Definitions 3.1、3.3；第42页。
 
-[^N]: Chen Wang, Lecture Notes on Stochastic Processes，个人笔记。 第2章，Definition and Examples of Martingales。
+[^2]: Chen Wang，*Lecture Notes on Stochastic Processes*，个人笔记，Definition 2.1、Remark 2.4。

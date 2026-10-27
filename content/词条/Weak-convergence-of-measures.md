@@ -31,14 +31,14 @@ $$
 
 ## 与分布函数收敛的关系
 
-在实直线上，依分布收敛等价于分布函数在极限分布函数的每个连续点收敛。[开集、闭集（open and closed sets）](Topological-space.md)及连续集（指边界的极限测度为零的 Borel 集）的判据见 [Portmanteau 定理（Portmanteau theorem）](Portmanteau-theorem.md)。
+在实直线上，依分布收敛等价于分布函数在极限分布函数的每个连续点收敛。[开集、闭集（open and closed sets）](Topological-space.md)及连续集（指边界的极限测度为零的 Borel 集）的判据见 [Portmanteau 定理（Portmanteau theorem）](Portmanteau-theorem.md)；紧区间上有限测度的对应版本见 Bass Exercise 7.29。[^2]
 
 **注**：本卡的“弱收敛”针对测度，不是把 [Lp 空间（Lp space）](Lp-space.md)中的元素作为向量讨论的[弱收敛（weak convergence in a normed space）](Normed-space.md)；后者要求每个连续线性泛函在该向量列上的取值收敛。
 
 
 ## 度量空间上的概率分布
 
-在[度量空间（Metric space）](Metric-space.md) $S$ 上，同样可用所有有界连续实函数 $f:S\to\mathbb R$ 定义 Borel 概率测度的弱收敛；记其函数类为 $C_b(S)$。空间及其拓扑是定义的一部分。例如连续路径空间 $C([0,1])$ 通常取一致距离，不能只比较有限多个时刻的分布便宣称路径弱收敛。[^2]
+在[度量空间（Metric space）](Metric-space.md) $S$ 上，同样可用所有有界连续实函数 $f:S\to\mathbb R$ 定义 Borel 概率测度的弱收敛；记其函数类为 $C_b(S)$。空间及其拓扑是定义的一部分。例如连续路径空间 $C([0,1])$ 通常取一致距离，不能只比较有限多个时刻的分布便宣称路径弱收敛。[^3]
 
 实值变量的四种主要收敛方式及反向失败的例子见[随机变量的收敛（Convergence of random variables）](Convergence-of-random-variables.md)。[紧性（Tightness）](Tightness.md)负责控制质量逃逸，[Prohorov 定理（Prohorov theorem）](Prohorov-theorem.md)在本库陈述的实值版本中保证弱收敛子列；[Lévy 连续性定理（Lévy continuity theorem）](Levy-continuity-theorem.md)则用特征函数识别极限。
 
@@ -46,8 +46,11 @@ $$
 
 ## 参考文献
 
-[^1]: Chen Wang, Notes on Lévy Processes and Stochastic Calculus，个人笔记，附录 Review of measure and probability。 Bass 第7章习题7.29 给出紧区间上的对应判据。
+[^1]: Chen Wang, *Notes on Lévy Processes and Stochastic Calculus*，个人笔记，第 82 页。
 
-[^2]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019，§§3.2、8.1。
+[^2]: Richard F. Bass, *Real Analysis for Graduate Students*, Version 4.3, 2022，Exercise 7.29。
+
+[^3]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，Theorems 3.2.9–3.2.11、3.10.1–3.10.2；第 391 页。
+
 
 [概率论导航](../概率论导航.md) · [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

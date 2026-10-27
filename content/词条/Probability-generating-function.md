@@ -36,4 +36,4 @@ Bernoulli 分布有 $G(z)=1-p+pz$，二项分布有 $G(z)=(1-p+pz)^n$，Poisson 
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §3.7与§4.3.4；生成函数系数与阶乘矩由幂级数展开。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 232 页；Theorem 4.3.12。

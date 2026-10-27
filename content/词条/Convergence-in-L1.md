@@ -48,4 +48,4 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 定义10.1、命题10.5；§7.5，习题7.10（印刷 p.64）给出模长积分判据，习题7.9给出相关的非负函数逐集积分收敛结论。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Definition 10.1；Proposition 10.5；Exercises 7.9–7.10。

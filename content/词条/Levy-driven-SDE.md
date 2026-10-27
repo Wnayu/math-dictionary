@@ -56,4 +56,4 @@ $$
 
 ## 参考文献
 
-[^1]: David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. §6.2，定理6.2.3及大跳interlacing构造；条件与估计按本条记号重述。
+[^1]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，式 (6.14)–(6.17)；Theorems 6.2.3、6.2.9、Corollary 6.2.4。

@@ -53,6 +53,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. §2.1，Proposition 2.8。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Proposition 2.8；第13页。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.1，Borel 可测性、可数基乘积空间与 Lebesgue 完备化。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Example 1.4；Exercise 1.11；Exercise 1.22。

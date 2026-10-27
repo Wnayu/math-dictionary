@@ -11,7 +11,7 @@ verified: false
 
 
 
-可选停止定理将鞅的确定时刻条件均值关系推广到适当的随机时刻。无界停时需要额外控制，不能只用“几乎必然有限”。[^D][^L]
+可选停止定理将鞅的确定时刻条件均值关系推广到适当的随机时刻。无界停时需要额外控制，不能只用“几乎必然有限”。[^1][^2]
 
 ## 有界停时
 
@@ -58,6 +58,6 @@ $$
 
 ## 参考文献
 
-[^D]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §§4.4、4.8。
+[^1]: Rick Durrett，*Probability: Theory and Examples*，Version 5，2019年1月11日，Theorems 4.4.1、4.8.1、4.8.3–4.8.5、Example 4.2.13。
 
-[^L]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016. §3.4。
+[^2]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorem 3.22、Corollary 3.23。

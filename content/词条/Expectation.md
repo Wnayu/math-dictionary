@@ -49,4 +49,4 @@ $$
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. §1.6，特别是期望定义、期望不等式和尾积分；本条将其与既有测度论词条连接。
+[^1]: Rick Durrett, *Probability: Theory and Examples*, Version 5, January 11, 2019，第 28–29 页；Theorems 1.6.1–1.6.3、1.6.9；Lemma 2.2.13。

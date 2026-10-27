@@ -53,6 +53,6 @@ $$
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, version 4.3, 2022. 定义5.13、6.1，习题6.2。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Definition 5.13；式 (6.1)、(6.5)；Exercise 6.2。
 
-[^2]: Chen Wang, Notes on Real Analysis, 个人笔记。 §1.3 Integration。
+[^2]: Chen Wang，*Notes on Real Analysis*，个人笔记，Definition 1.29(1)。

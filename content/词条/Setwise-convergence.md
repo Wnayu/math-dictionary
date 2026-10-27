@@ -28,10 +28,12 @@ $$
 
 ## 与弱收敛的关系
 
-在欧氏 Borel 空间上，有界连续函数是有界可测函数，故逐集收敛推出[弱收敛（Weak convergence of measures）](Weak-convergence-of-measures.md)。[Dirac 测度（Dirac measure）](Dirac-measure.md)的弱收敛 $\delta_{1/n}\Rightarrow\delta_0$ 的例子说明反向失败。即便弱收敛成立，[Portmanteau 定理（Portmanteau theorem）](Portmanteau-theorem.md)也只保证极限边界零测度的集合质量收敛。
+在欧氏 Borel 空间上，有界连续函数是有界可测函数，故逐集收敛推出[弱收敛（Weak convergence of measures）](Weak-convergence-of-measures.md)。[^2] [Dirac 测度（Dirac measure）](Dirac-measure.md)的弱收敛 $\delta_{1/n}\Rightarrow\delta_0$ 的例子说明反向失败。即便弱收敛成立，[Portmanteau 定理（Portmanteau theorem）](Portmanteau-theorem.md)也只保证极限边界零测度的集合质量收敛。
 
 ## 参考文献
 
-[^1]: Richard F. Bass, Real Analysis for Graduate Students, Version 4.3, 2022，习题7.26；Chen Wang, Notes on Lévy Processes and Stochastic Calculus，测度弱收敛段落。
+[^1]: Richard F. Bass，*Real Analysis for Graduate Students*，version 4.3，2022，Exercise 7.26。
+
+[^2]: Chen Wang，*Notes on Lévy Processes and Stochastic Calculus*，个人笔记，第82页。
 
 [测度论导航](../测度论导航.md) · [测度（Measure）](Measure.md)

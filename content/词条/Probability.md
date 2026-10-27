@@ -11,11 +11,11 @@ verified: false
 
 
 
-概率论研究随机现象的分布、依赖关系和极限规律，并通过随机过程描述随时间演化的不确定性。本专题以可测空间和积分为基础，继续讨论随机积分与随机微分方程。[^1][^2]
+概率论研究随机现象的分布、依赖关系和极限规律，并通过随机过程描述随时间演化的不确定性。本专题以可测空间和积分为基础，继续讨论随机积分与随机微分方程。
 
 ## 概率空间与随机变量
 
-[概率空间（Probability space）](Probability-measure.md)把事件组织为 σ-代数并赋予总质量为 $1$ 的测度；[随机变量（Random variable）](Random-variable.md)是从这个空间出发的可测映射。[分布（Law of a random variable）](Law-of-a-random-variable.md)记录取值的概率，[期望与矩（Expectation and moments）](Expectation.md)通过积分刻画数量特征。联合信息由[随机向量（Random vector）](Random-vector.md)、[独立性（Independence）](Independence.md)及[条件期望（Conditional expectation）](Conditional-expectation.md)描述。
+[概率空间（Probability space）](Probability-measure.md)把事件组织为 σ-代数并赋予总质量为 $1$ 的测度；[随机变量（Random variable）](Random-variable.md)是从这个空间出发的可测映射。[^1][分布（Law of a random variable）](Law-of-a-random-variable.md)记录取值的概率，[期望与矩（Expectation and moments）](Expectation.md)通过积分刻画数量特征。联合信息由[随机向量（Random vector）](Random-vector.md)、[独立性（Independence）](Independence.md)及[条件期望（Conditional expectation）](Conditional-expectation.md)描述。
 
 ## 极限与收敛
 
@@ -27,7 +27,7 @@ verified: false
 
 ## 随机积分与方程
 
-[随机积分（Stochastic integral）](Stochastic-integral.md)必须说明积分器、被积过程的可测性与可积性。[Itô 公式（Itô formula）](Ito-formula.md)中的二阶项来自二次变差；跳跃时还需[带跳修正（Itô formula with jumps）](Jump-Ito-formula.md)。[随机微分方程（Stochastic differential equation）](Stochastic-differential-equation.md)的存在、强弱解和不同唯一性概念由各专门词条详细说明。[Lévy 噪声驱动方程（Lévy-driven stochastic differential equation）](Levy-driven-SDE.md)进一步包括补偿小跳与有限大跳。
+[随机积分（Stochastic integral）](Stochastic-integral.md)必须说明积分器、被积过程的可测性与可积性。[Itô 公式（Itô formula）](Ito-formula.md)中的二阶项来自二次变差；[^2]跳跃时还需[带跳修正（Itô formula with jumps）](Jump-Ito-formula.md)。[随机微分方程（Stochastic differential equation）](Stochastic-differential-equation.md)的存在、强弱解和不同唯一性概念由各专门词条详细说明。[Lévy 噪声驱动方程（Lévy-driven stochastic differential equation）](Levy-driven-SDE.md)进一步包括补偿小跳与有限大跳。[^3]
 
 ## 阅读入口
 
@@ -40,6 +40,8 @@ verified: false
 
 ## 参考文献
 
-[^1]: Rick Durrett, Probability: Theory and Examples, Version 5, January 11, 2019. 全书的概率论组织结构。
+[^1]: Rick Durrett，*Probability: Theory and Examples*，Version 5，2019年1月11日，第1、10页。
 
-[^2]: Jean-François Le Gall, Brownian Motion, Martingales, and Stochastic Calculus, Graduate Texts in Mathematics 274, Springer, 2016；David Applebaum, Lévy Processes and Stochastic Calculus, 2nd ed., Cambridge Studies in Advanced Mathematics 116, Cambridge University Press, 2009. 概率过程与随机分析部分。
+[^2]: Jean-François Le Gall，*Brownian Motion, Martingales, and Stochastic Calculus*，Graduate Texts in Mathematics 274，Springer，2016，Theorems 5.4、5.10。
+
+[^3]: David Applebaum，*Lévy Processes and Stochastic Calculus*，第2版，Cambridge Studies in Advanced Mathematics 116，Cambridge University Press，2009，式 (6.14)；Theorems 6.2.3、6.2.9。
